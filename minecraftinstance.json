@@ -41,7 +41,7 @@
   "allocatedMemory": 8130,
   "guid": "043b4f92-09f5-42eb-9ee7-5a321911af34",
   "gameTypeID": 432,
-  "installPath": "C:\\Users\\micha000\\Documents\\Curse\\Minecraft\\Instances\\Explosive Mining\\",
+  "installPath": "D:\\Instances\\explosive\\",
   "name": "Explosive Mining",
   "cachedScans": [
     {
@@ -1788,7 +1788,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 362368,
@@ -3197,7 +3197,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 32274,
@@ -3549,7 +3549,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 270789,
