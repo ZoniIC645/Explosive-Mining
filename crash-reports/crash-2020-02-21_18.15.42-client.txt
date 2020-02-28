@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+Contact their authors BEFORE contacting forge
+
+// Daisy, daisy...
+
+Time: 2/21/20 6:15 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from IndustrialCraft 2 (ic2)
+Caused by: java.lang.RuntimeException: Error loading user config
+	at ic2.core.init.MainConfig.load(MainConfig.java:31)
+	at ic2.core.IC2.load(IC2.java:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: ic2.core.util.Config$ParseException: general parse error at line 341 (tfc:ore/bismuthinite/andesite,).
+	at ic2.core.util.Config.load(Config.java:264)
+	at ic2.core.util.Config.load(Config.java:277)
+	at ic2.core.init.MainConfig.load(MainConfig.java:29)
+	... 41 more
+Caused by: ic2.core.util.Config$ParseException: invalid key-value pair at line 341 (tfc:ore/bismuthinite/andesite,).
+	at ic2.core.util.Config.load(Config.java:229)
+	... 43 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1338049680 bytes (1276 MB) / 1864368128 bytes (1778 MB) up to 7578058752 bytes (7227 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8130m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 27 mods loaded, 27 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                   | Version                  | Source                                  | Signature                                |
+	|:----- |:-------------------- |:------------------------ |:--------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft            | 1.12.2                   | minecraft.jar                           | None                                     |
+	| LCH   | mcp                  | 9.42                     | minecraft.jar                           | None                                     |
+	| LCH   | FML                  | 8.0.99.99                | forge-1.12.2-14.23.5.2847.jar           | None                                     |
+	| LCH   | forge                | 14.23.5.2847             | forge-1.12.2-14.23.5.2847.jar           | None                                     |
+	| LCH   | foamfixcore          | 7.7.4                    | minecraft.jar                           | None                                     |
+	| LCH   | ctm                  | MC1.12.2-1.0.1.30        | CTM-MC1.12.2-1.0.1.30.jar               | None                                     |
+	| LCH   | appliedenergistics2  | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar    | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCH   | chameleon            | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                | None                                     |
+	| LCH   | jei                  | 4.15.0.291               | jei_1.12.2-4.15.0.291.jar               | None                                     |
+	| LCH   | chisel               | MC1.12.2-1.0.1.44        | Chisel-MC1.12.2-1.0.1.44.jar            | None                                     |
+	| LCH   | crafttweaker         | 4.1.20                   | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCH   | ctgui                | 1.0.0                    | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCH   | crafttweakerjei      | 2.0.3                    | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCH   | foamfix              | 0.10.10-1.12.2           | foamfix-0.10.10-1.12.2.jar              | None                                     |
+	| LCH   | theoneprobe          | 1.4.28                   | theoneprobe-1.12-1.4.28.jar             | None                                     |
+	| LCH   | immersiveengineering | 0.12-92                  | ImmersiveEngineering-0.12-92.jar        | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LCH   | immersivetech        | 1.3.10                   | immersivetech-1.12-1.3.10.jar           | None                                     |
+	| LCE   | ic2                  | 2.8.188-ex112            | industrialcraft-2-2.8.188-ex112.jar     | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LC    | inventorytweaks      | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LC    | journeymap           | 1.12.2-5.5.9             | journeymap-1.12.2-5.5.9.jar             | None                                     |
+	| LC    | mousetweaks          | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar           | None                                     |
+	| LC    | scannable            | 1.6.3.24                 | Scannable-MC1.12.2-1.6.3.24.jar         | None                                     |
+	| LC    | storagedrawers       | 1.12.2-5.4.0             | StorageDrawers-1.12.2-5.4.0.jar         | None                                     |
+	| LC    | tfc                  | 0.29.3.118               | TerraFirmaCraft-MC1.12.2-0.29.3.118.jar | None                                     |
+	| LC    | topaddons            | 1.12.2-1.12.0            | topaddons-1.12.2-1.12.0.jar             | None                                     |
+	| LC    | industrialwires      | 1.7-36                   | IndustrialWires-1.7-36.jar              | 7e11c175d1e24007afec7498a1616bef0000027d |
+	| LC    | reauth               | 3.6.0                    | reauth-3.6.0.jar                        | daba0ec4df71b6da841768c49fb873def208a1e3 |
+
+	Loaded coremods (and transformers): 
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 436.50' Renderer: 'GeForce GTX 1060/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768

@@ -1,0 +1,160 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+Contact their authors BEFORE contacting forge
+
+// Don't do that.
+
+Time: 2/23/20 3:38 PM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at mysticalmechanics.tileentity.TileEntityGearbox.rotateTile(TileEntityGearbox.java:412)
+	at mysticalmechanics.block.BlockGearbox.rotateBlock(BlockGearbox.java:100)
+	at blusunrize.immersiveengineering.common.util.RotationUtil.rotateBlock(RotationUtil.java:80)
+	at blusunrize.immersiveengineering.common.items.ItemIETool.func_180614_a(ItemIETool.java:309)
+	at net.minecraft.item.ItemStack.func_179546_a(ItemStack.java:187)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_187099_a(PlayerControllerMP.java:467)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1579)
+	at net.minecraft.client.Minecraft.func_184117_aA(Minecraft.java:2254)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2020)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1808)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at mysticalmechanics.tileentity.TileEntityGearbox.rotateTile(TileEntityGearbox.java:412)
+	at mysticalmechanics.block.BlockGearbox.rotateBlock(BlockGearbox.java:100)
+	at blusunrize.immersiveengineering.common.util.RotationUtil.rotateBlock(RotationUtil.java:80)
+	at blusunrize.immersiveengineering.common.items.ItemIETool.func_180614_a(ItemIETool.java:309)
+	at net.minecraft.item.ItemStack.func_179546_a(ItemStack.java:187)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_187099_a(PlayerControllerMP.java:467)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1579)
+	at net.minecraft.client.Minecraft.func_184117_aA(Minecraft.java:2254)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2020)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['ZoNiIc645'/132, l='MpServer', x=-75.41, y=186.29, z=2009.93]]
+	Chunk stats: MultiplayerChunkCache: 624, 624
+	Level seed: 0
+	Level generator: ID 06 - tfc_classic, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (160,144,252), Chunk: (at 0,9,12 in 10,15; contains blocks 160,0,240 to 175,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 176996 game time, 252363 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 116 total; [EntitySkeleton['Skeleton'/75265, l='MpServer', x=-76.50, y=79.00, z=1941.73], EntitySpider['Spider'/53761, l='MpServer', x=-75.50, y=94.00, z=1994.50], EntityZombie['Zombie'/66048, l='MpServer', x=-134.50, y=87.00, z=1965.50], EntitySkeleton['Skeleton'/75264, l='MpServer', x=-78.50, y=80.00, z=1949.50], EntityEnderman['Enderman'/75266, l='MpServer', x=-44.50, y=89.00, z=1972.50], EntityPigTFC['Pig♂§r'/516, l='MpServer', x=-77.45, y=146.00, z=1988.90], EntityZombie['Zombie'/77573, l='MpServer', x=-70.50, y=84.00, z=1957.50], EntitySpider['Spider'/75275, l='MpServer', x=-71.50, y=78.00, z=1957.50], EntityPigTFC['Pig♀§r'/523, l='MpServer', x=-43.70, y=149.00, z=2069.18], EntityPigTFC['Pig♀§r'/524, l='MpServer', x=-36.46, y=151.00, z=2047.17], EntityWolfTFC['Wolf♀§r'/525, l='MpServer', x=-40.83, y=150.00, z=2034.32], EntityZombie['Zombie'/41741, l='MpServer', x=-134.50, y=113.00, z=1961.50], EntityWolfTFC['Wolf♂§r'/526, l='MpServer', x=-57.72, y=148.00, z=2054.17], EntityCreeper['Creeper'/55060, l='MpServer', x=-153.50, y=118.00, z=1966.50], EntityCreeper['Creeper'/71705, l='MpServer', x=-76.50, y=94.00, z=1991.50], EntityCreeper['Creeper'/71704, l='MpServer', x=-75.50, y=94.00, z=1992.50], EntityChickenTFC['Chicken§r'/543, l='MpServer', x=-28.50, y=95.00, z=1940.50], EntityCowTFC['Bull§r'/544, l='MpServer', x=-20.52, y=147.00, z=1951.20], EntityZombie['Zombie'/53295, l='MpServer', x=-53.50, y=96.00, z=1967.50], EntityCowTFC['Bull§r'/562, l='MpServer', x=-4.20, y=145.00, z=1958.58], EntityPigTFC['Pig♀§r'/565, l='MpServer', x=-0.92, y=151.00, z=1941.69], EntitySkeleton['Skeleton'/68916, l='MpServer', x=-85.50, y=75.00, z=1960.50], EntityCowTFC['Bull§r'/566, l='MpServer', x=-20.14, y=151.00, z=1941.26], EntityChickenTFC['Chicken§r'/567, l='MpServer', x=-13.23, y=151.00, z=1938.52], EntityPigTFC['Pig♂§r'/569, l='MpServer', x=0.79, y=148.00, z=1934.48], EntityDonkeyTFC['Donkey♂§r'/570, l='MpServer', x=-8.21, y=147.00, z=2074.02], EntityDonkeyTFC['Donkey♂§r'/572, l='MpServer', x=-23.11, y=148.00, z=2089.07], EntityHorseTFC['Horse♀§r'/321, l='MpServer', x=-138.88, y=149.00, z=1987.10], EntitySheepTFC['Sheep♀§r'/322, l='MpServer', x=-134.50, y=161.00, z=1995.50], EntitySheepTFC['Sheep♂§r'/323, l='MpServer', x=-147.52, y=149.00, z=1989.75], EntitySkeleton['Skeleton'/75074, l='MpServer', x=-95.50, y=76.00, z=1948.50], EntitySheepTFC['Sheep♀§r'/325, l='MpServer', x=-115.53, y=147.00, z=1940.77], EntityWolfTFC['Wolf♂§r'/581, l='MpServer', x=-14.50, y=153.00, z=2018.76], EntitySheepTFC['Sheep♀§r'/326, l='MpServer', x=-123.79, y=149.00, z=1945.21], EntityPigTFC['Pig♂§r'/582, l='MpServer', x=-22.87, y=152.00, z=2038.81], EntityItem['item.item.dyePowder.black'/25678, l='MpServer', x=-15.27, y=56.00, z=2003.40], EntityCreeper['Creeper'/78671, l='MpServer', x=-79.50, y=97.00, z=1942.50], EntityWolfTFC['Wolf♂§r'/335, l='MpServer', x=-145.67, y=149.00, z=2089.92], EntityItem['item.item.dyePowder.black'/24144, l='MpServer', x=-15.81, y=56.00, z=2001.96], EntityWolfTFC['Wolf♀§r'/336, l='MpServer', x=-145.08, y=149.00, z=2090.61], EntityCreeper['Creeper'/61777, l='MpServer', x=-105.50, y=82.00, z=1953.50], EntityWolfTFC['Wolf♂§r'/344, l='MpServer', x=-143.69, y=149.00, z=2090.34], EntitySpider['Spider'/61273, l='MpServer', x=-109.50, y=86.00, z=1967.50], EntitySkeleton['Skeleton'/74840, l='MpServer', x=-31.50, y=95.00, z=1939.50], EntityItem['item.item.dyePowder.black'/22620, l='MpServer', x=-103.53, y=52.00, z=1947.84], EntityWitch['Witch'/74333, l='MpServer', x=-65.50, y=75.00, z=2004.50], EntitySkeleton['Skeleton'/54636, l='MpServer', x=-92.50, y=70.00, z=1978.50], EntitySkeleton['Skeleton'/71281, l='MpServer', x=-65.50, y=88.00, z=1949.50], EntityZombie['Zombie'/56948, l='MpServer', x=-68.50, y=77.00, z=1962.50], EntityZombie['Zombie'/77179, l='MpServer', x=-66.50, y=76.00, z=2003.50], EntityPlayerSP['ZoNiIc645'/132, l='MpServer', x=-75.41, y=186.29, z=2009.93], EntityZombie['Zombie'/74115, l='MpServer', x=-89.50, y=72.00, z=1959.50], EntityZombie['Zombie'/74114, l='MpServer', x=-86.50, y=72.00, z=1962.50], EntityDonkeyTFC['Donkey♀§r'/133, l='MpServer', x=-83.47, y=145.00, z=1998.84], EntityHorseTFC['Horse♂§r'/134, l='MpServer', x=-120.08, y=148.00, z=1980.87], EntityHorseTFC['Horse♀§r'/135, l='MpServer', x=-116.11, y=144.00, z=1980.01], EntityHorseTFC['Horse♀§r'/136, l='MpServer', x=-120.93, y=149.00, z=1990.88], EntitySkeleton['Skeleton'/58760, l='MpServer', x=-9.50, y=95.00, z=2003.50], EntityBat['Bat'/71817, l='MpServer', x=-85.43, y=62.10, z=1994.25], EntitySheepTFC['Sheep♂§r'/137, l='MpServer', x=-125.80, y=149.00, z=2008.76], EntityDonkeyTFC['Donkey♀§r'/393, l='MpServer', x=-66.31, y=150.00, z=2058.01], EntityBat['Bat'/71816, l='MpServer', x=-87.21, y=62.18, z=1994.42], EntityHorseTFC['Horse♀§r'/138, l='MpServer', x=-127.82, y=149.00, z=2019.11], EntityCreeper['Creeper'/73867, l='MpServer', x=-57.50, y=89.00, z=2004.50], EntitySkeleton['Skeleton'/68237, l='MpServer', x=-81.50, y=68.00, z=1982.50], EntitySkeleton['Skeleton'/77196, l='MpServer', x=-31.50, y=76.00, z=2007.50], EntityCreeper['Creeper'/78220, l='MpServer', x=-29.50, y=73.00, z=1994.50], EntityCreeper['Creeper'/77199, l='MpServer', x=-58.14, y=81.00, z=1995.54], EntitySheepTFC['Sheep♀§r'/143, l='MpServer', x=-110.44, y=148.00, z=2008.79], EntityZombie['Zombie'/77198, l='MpServer', x=-34.59, y=74.00, z=2021.77], EntitySheepTFC['Sheep♂§r'/144, l='MpServer', x=-93.62, y=144.00, z=1983.92], EntityDonkeyTFC['Donkey♀§r'/145, l='MpServer', x=-106.89, y=151.00, z=2045.35], EntityItem['item.item.tfc.rock.chalk'/25491, l='MpServer', x=-78.73, y=146.00, z=2013.46], EntityChickenTFC['Rooster§r'/149, l='MpServer', x=-78.50, y=86.00, z=1968.50], EntityItem['item.item.dyePowder.black'/22678, l='MpServer', x=-88.13, y=53.00, z=1955.88], EntityDonkeyTFC['Donkey♀§r'/151, l='MpServer', x=-62.14, y=149.00, z=1965.19], EntityEnderman['Enderman'/63640, l='MpServer', x=-125.50, y=108.00, z=1952.50], EntityCreeper['Creeper'/78235, l='MpServer', x=-114.50, y=83.00, z=1954.50], EntityEnderman['Enderman'/63643, l='MpServer', x=-123.59, y=112.00, z=1961.52], EntityDonkeyTFC['Donkey♂§r'/156, l='MpServer', x=-75.93, y=148.00, z=1998.21], EntitySkeleton['Skeleton'/74654, l='MpServer', x=-86.50, y=99.00, z=1998.50], EntityWolfTFC['Wolf♀§r'/416, l='MpServer', x=-73.77, y=153.00, z=2070.58], EntityBat['Bat'/72365, l='MpServer', x=-73.67, y=60.93, z=2003.52], EntitySpider['Spider'/55726, l='MpServer', x=-39.50, y=72.00, z=2009.50], EntityCreeper['Creeper'/69299, l='MpServer', x=-38.50, y=75.00, z=2025.50], EntityChickenTFC['Chicken§r'/437, l='MpServer', x=-75.50, y=74.00, z=1932.22], EntityCreeper['Creeper'/74935, l='MpServer', x=-78.50, y=95.00, z=2002.50], EntityCreeper['Creeper'/74934, l='MpServer', x=-80.50, y=95.00, z=2002.50], EntityPigTFC['Pig♀§r'/441, l='MpServer', x=-40.44, y=147.00, z=1962.55], EntityPigTFC['Pig♂§r'/442, l='MpServer', x=-30.53, y=143.00, z=1954.84], EntityCreeper['Creeper'/42687, l='MpServer', x=-82.50, y=68.00, z=1981.50], EntitySpider['Spider'/67518, l='MpServer', x=-27.50, y=74.00, z=2018.50], EntitySpider['Spider'/67521, l='MpServer', x=-77.50, y=73.00, z=1962.50], EntityCreeper['Creeper'/71621, l='MpServer', x=-142.50, y=114.00, z=1955.50], EntityZombie['Zombie'/79045, l='MpServer', x=-109.50, y=86.00, z=1968.50], EntitySkeleton['Skeleton'/59079, l='MpServer', x=-25.50, y=82.00, z=1975.50], EntityZombie['Zombie'/65736, l='MpServer', x=-25.50, y=73.00, z=2007.50], EntitySkeleton['Skeleton'/59594, l='MpServer', x=-92.50, y=70.00, z=1974.50], EntityCreeper['Creeper'/49877, l='MpServer', x=-36.50, y=74.00, z=2018.50], EntityCreeper['Creeper'/78548, l='MpServer', x=-17.50, y=139.00, z=1991.50], EntitySkeleton['Skeleton'/70617, l='MpServer', x=-35.50, y=73.00, z=2015.50], EntitySkeleton['Skeleton'/70616, l='MpServer', x=-39.50, y=73.00, z=2013.50], EntityCreeper['Creeper'/65763, l='MpServer', x=-73.50, y=70.00, z=1967.50], EntityCreeper['Creeper'/65762, l='MpServer', x=-74.50, y=70.00, z=1966.50], EntitySkeleton['Skeleton'/69611, l='MpServer', x=-90.50, y=70.00, z=1978.50], EntityCreeper['Creeper'/71405, l='MpServer', x=-43.50, y=69.00, z=2030.50], EntitySkeleton['Skeleton'/75245, l='MpServer', x=-47.50, y=93.00, z=2005.50], EntitySpider['Spider'/69612, l='MpServer', x=-87.50, y=70.00, z=1979.50], EntityZombie['Zombie'/69615, l='MpServer', x=-71.50, y=84.00, z=1958.50], EntityCreeper['Creeper'/69614, l='MpServer', x=-89.50, y=70.00, z=1980.50], EntityEnderman['Enderman'/72430, l='MpServer', x=-75.50, y=85.00, z=1959.50], EntityZombie['Zombie'/69617, l='MpServer', x=-73.50, y=84.00, z=1955.50], EntityZombie['Zombie'/69616, l='MpServer', x=-71.50, y=84.00, z=1957.50], EntityCreeper['Creeper'/73207, l='MpServer', x=-51.50, y=93.00, z=1965.50], EntityCreeper['Creeper'/73208, l='MpServer', x=-50.50, y=93.00, z=1966.50], EntityZombie['Zombie'/66047, l='MpServer', x=-134.50, y=87.00, z=1963.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:427)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1072099344 bytes (1022 MB) / 4118806528 bytes (3928 MB) up to 7578058752 bytes (7227 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8130m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 35 mods loaded, 35 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version                  | Source                                  | Signature                                |
+	|:------ |:-------------------- |:------------------------ |:--------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2                   | minecraft.jar                           | None                                     |
+	| LCHIJA | mcp                  | 9.42                     | minecraft.jar                           | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99                | forge-1.12.2-14.23.5.2847.jar           | None                                     |
+	| LCHIJA | forge                | 14.23.5.2847             | forge-1.12.2-14.23.5.2847.jar           | None                                     |
+	| LCHIJA | foamfixcore          | 7.7.4                    | minecraft.jar                           | None                                     |
+	| LCHIJA | ctm                  | MC1.12.2-1.0.1.30        | CTM-MC1.12.2-1.0.1.30.jar               | None                                     |
+	| LCHIJA | appliedenergistics2  | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar    | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCHIJA | chameleon            | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                | None                                     |
+	| LCHIJA | jei                  | 4.15.0.291               | jei_1.12.2-4.15.0.291.jar               | None                                     |
+	| LCHIJA | chisel               | MC1.12.2-1.0.1.44        | Chisel-MC1.12.2-1.0.1.44.jar            | None                                     |
+	| LCHIJA | crafttweaker         | 4.1.20                   | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCHIJA | ctgui                | 1.0.0                    | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCHIJA | crafttweakerjei      | 2.0.3                    | CraftTweaker2-1.12-4.1.20.jar           | None                                     |
+	| LCHIJA | foamfix              | 0.10.10-1.12.2           | foamfix-0.10.10-1.12.2.jar              | None                                     |
+	| LCHIJA | theoneprobe          | 1.4.28                   | theoneprobe-1.12-1.4.28.jar             | None                                     |
+	| LCHIJA | immersiveengineering | 0.12-92                  | ImmersiveEngineering-0.12-92.jar        | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LCHIJA | immersivepetroleum   | 1.1.9                    | immersivepetroleum-1.12.2-1.1.9.jar     | None                                     |
+	| LCHIJA | immersiveposts       | 0.1.5                    | ImmersivePosts-0.1.5.jar                | 0ba8738eadcf158e7fe1452255a73a022fb15feb |
+	| LCHIJA | immersivetech        | 1.3.10                   | immersivetech-1.12-1.3.10.jar           | None                                     |
+	| LCHIJA | inventorytweaks      | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCHIJA | journeymap           | 1.12.2-5.5.9             | journeymap-1.12.2-5.5.9.jar             | None                                     |
+	| LCHIJA | mysticalmechanics    | 0.12                     | Mystical Mechanics-0.12.jar             | None                                     |
+	| LCHIJA | mech_crafting        | 1.1.1                    | MechanicalCrafting-1.1.1.jar            | None                                     |
+	| LCHIJA | mousetweaks          | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar           | None                                     |
+	| LCHIJA | mystgears            | 1.1.0                    | mystgears-1.1.0.jar                     | None                                     |
+	| LCHIJA | patchouli            | 1.0-20                   | Patchouli-1.0-20.jar                    | None                                     |
+	| LCHIJA | prodigytech          | 1.3.4                    | prodigytech-1.12.2-1.3.4.jar            | None                                     |
+	| LCHIJA | prodigymechanics     | 0.2                      | ProdigyMechanics-0.2.jar                | None                                     |
+	| LCHIJA | rustichromia         | 0.4                      | Rustichromia-0.4.jar                    | None                                     |
+	| LCHIJA | scannable            | 1.6.3.24                 | Scannable-MC1.12.2-1.6.3.24.jar         | None                                     |
+	| LCHIJA | storagedrawers       | 1.12.2-5.4.0             | StorageDrawers-1.12.2-5.4.0.jar         | None                                     |
+	| LCHIJA | tfc                  | 0.29.3.118               | TerraFirmaCraft-MC1.12.2-0.29.3.118.jar | None                                     |
+	| LCHIJA | topaddons            | 1.12.2-1.12.0            | topaddons-1.12.2-1.12.0.jar             | None                                     |
+	| LCHIJA | zenutils             | 1.1                      | zenutils-1.0.jar                        | None                                     |
+	| LCHIJA | reauth               | 3.6.0                    | reauth-3.6.0.jar                        | daba0ec4df71b6da841768c49fb873def208a1e3 |
+
+	Loaded coremods (and transformers): 
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 436.50' Renderer: 'GeForce GTX 1060/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:OFF, InvTweaks:ON, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:ON, TESLA:OFF, CRAFTTWEAKER:ON
+	Launched Version: forge-14.23.5.2847
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1060/PCIe/SSE2 GL version 4.6.0 NVIDIA 436.50, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz

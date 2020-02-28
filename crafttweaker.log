@@ -1,0 +1,283 @@
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: CnT.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: furnace_remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\coke_oven.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\fireclay.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\gunpowder.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\harder_ore.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\fiber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\grind.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\propick.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: prodigy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: CnT.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: furnace_remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\coke_oven.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\fireclay.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\gunpowder.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\harder_ore.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\fiber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\grind.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\propick.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: prodigy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 281ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: CnT.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: furnace_remove.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\coke_oven.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\fireclay.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\gunpowder.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\harder_ore.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\fiber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\process\grind.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ore\propick.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: prodigy.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: CnT.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: furnace_remove.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\coke_oven.zs}
+[INITIALIZATION][CLIENT][INFO] Adding clay knapping recipe crafttweaker:claybrick
+[INITIALIZATION][CLIENT][INFO] Registered heat capacity for <contenttweaker:unfinished_clay_brick>
+[INITIALIZATION][CLIENT][INFO] Registered heat capacity for <minecraft:brick>
+[INITIALIZATION][CLIENT][INFO] Adding heating recipe crafttweaker:brick
+[INITIALIZATION][CLIENT][INFO] Adding Coke Oven Recipe for Coal Coke
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\fireclay.zs}
+[INITIALIZATION][CLIENT][INFO] Adding quern recipe crafttweaker:cokedust
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\gunpowder.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Chalk Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Chert Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Claystone Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Conglomerate Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Dolomite Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Limestone Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Rocksalt Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Shale Sand to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Chalk Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Chert Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Claystone Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Conglomerate Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Dolomite Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Limestone Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Rocksalt Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Shale Gravel to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Chalk Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Chert Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Claystone Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Conglomerate Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Dolomite Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Limestone Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Rocksalt Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding Shale Dirt to ore dictionary entry sedimentary_earth
+[INITIALIZATION][CLIENT][INFO] Adding quern recipe crafttweaker:saltpeter
+[INITIALIZATION][CLIENT][INFO] Adding Onion to ore dictionary entry GalicorOnion
+[INITIALIZATION][CLIENT][INFO] Adding Garlic to ore dictionary entry GalicorOnion
+[INITIALIZATION][CLIENT][INFO] Adding quern recipe crafttweaker:foodsulfur
+[INITIALIZATION][CLIENT][INFO] Adding quern recipe crafttweaker:coaldust
+[INITIALIZATION][CLIENT][INFO] Adding barrel recipe crafttweaker:sulfur
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\harder_ore.zs}
+[INITIALIZATION][CLIENT][INFO] asdf
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\process\fiber.zs}
+[INITIALIZATION][CLIENT][INFO] Translating item.tfc.crop.product.jute_fiber.name to Fiber
+[INITIALIZATION][CLIENT][INFO] Adding barrel recipe crafttweaker:fiber
+[INITIALIZATION][CLIENT][INFO] Removing loom recipe tfc:burlap_cloth
+[INITIALIZATION][CLIENT][INFO] Adding loom recipe minecraft:bulacolth
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\process\grind.zs}
+[INITIALIZATION][CLIENT][INFO] Registered metal item capability for <contenttweaker:iron_chunk>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\propick.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: prodigy.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 175ms
+[INITIALIZATION][CLIENT][INFO] Translating item.tfc.crop.product.jute_fiber.name to Fiber
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:4> and replacing them with <tfc:crop/product/jute_fiber>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Hammer with name ct_shaped-433160046
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Coke Brick with name ct_shaped-796182100
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fire Clay with name ct_shaped-617656
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for TNT with name ct_shaped-8027465
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gunpowder Barrel with name ct_shaped2050338246
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Gunpowder with name ct_shapeless1881751114
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gin with name ct_shaped-247667357
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bismuth Bronze Prospector's Pickaxe with name ct_shaped-838230080
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Bronze Prospector's Pickaxe with name ct_shaped-1530685664
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Steel Prospector's Pickaxe with name ct_shaped966781830
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blue Steel Prospector's Pickaxe with name ct_shaped-596083168
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Prospector's Pickaxe with name ct_shaped-265521504
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Prospector's Pickaxe with name ct_shaped-1880901696
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Steel Prospector's Pickaxe with name ct_shaped1476427042
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Prospector's Pickaxe with name ct_shaped-1606461498
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wrought Iron Prospector's Pickaxe with name ct_shaped1227265152
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quern Handstone with name ct_shaped-1606113955
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hemp Rope Coil with name immersiveengineering-wirecoils/wirecoil_rope-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hempcrete with name immersiveengineering-stone_decoration/hempcrete-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for String with name immersiveengineering-material/string-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tough Fabric with name immersiveengineering-material/hemp_fabric-modified
+[POSTINITIALIZATION][CLIENT][INFO] Removing all furnace recipes
+[POSTINITIALIZATION][CLIENT][INFO] 254 furnace recipes removed for
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:cokedust
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:flux_1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:flux_2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:saltpeter
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:foodsulfur
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:coaldust
+[POSTINITIALIZATION][CLIENT][INFO] Adding Gin recipe: crafttweaker:burlap_cloth
+[POSTINITIALIZATION][CLIENT][INFO] Adding Gin recipe: crafttweaker:mesh
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite1
+[POSTINITIALIZATION][CLIENT][INFO] Adding Quern recipe: crafttweaker:oretfc:ore/bismuthinite2
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:linear_extractor>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:tartaric_stoker>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorrasteel_handbow>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:capacitor_charger>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorrasteel_raw>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:energion_crystal_seed>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:gold_dust_tiny>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ore_refinery>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:fuel_pellet_1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:fuel_pellet_4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_dust_tiny>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:sawdust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_leaves>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:funnelling_extractor>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:enriched_fuel>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:atomic_reshaper>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:blower_furnace>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:inferno_fuel>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:dispersing_extractor>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:energion_aeroheater>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_nugget>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:pattern_circuit_refined>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:pattern_circuit_perfected>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_leaf>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:primordium>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ash_bricks>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorrasteel_sword>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorrasteel_ingot>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:sugar_cube>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_planks>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_log>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:food_enricher>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:quartz_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_handbow>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:carbon_plate>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:charred_stonebricks>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:solderer>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:pattern_circuit_crude>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:fuel_pellet_64>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:fuel_pellet_16>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:iron_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:automatic_crystal_cutter>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:incinerator>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_sapling>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_ingot>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:iron_dust_tiny>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_3:12000>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_2:12000>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_1:12000>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_0:12000>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_capacitor_0>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:diamond_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:primordialis_reactor>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:magnetic_reassembler>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:circuit_crude>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:explosion_furnace>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:charred_cobblestone>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:gold_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:crystal_cutter>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:heat_sawmill>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:emerald_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:inferno_crystal>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:circuit_perfected>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:capacitor_aeroheater>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_gear>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:aeternus_crystal>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:carbon_plate_block>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:food_purifier>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:particle_board_planks>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:charred_stone>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:meat_patty>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:energion_dust>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorrasteel_block>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:flour>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ash>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:circuit_plate>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:meat_ground>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:circuit_refined>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:fuel_processor>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:ferramic_block>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:zorra_altar>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:particle_board>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <prodigytech:rotary_grinder>
+[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
+[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: CnT.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 2ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [mekatweaker]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: furnace_remove.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\coke_oven.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\fireclay.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\gunpowder.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\harder_ore.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\process\fiber.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\process\grind.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ore\propick.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: prodigy.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 28ms

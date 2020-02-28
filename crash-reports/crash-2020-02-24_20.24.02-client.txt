@@ -1,0 +1,206 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2020-02-24 20:24:02 KST
+Description: Batching chunks
+
+java.lang.IllegalStateException: Not building!
+    at net.minecraft.client.renderer.BufferBuilder.finishDrawing(BufferBuilder.java:537)
+    at net.minecraft.client.renderer.chunk.RenderChunk.postRenderBlocks(RenderChunk.java:345)
+    at net.minecraft.client.renderer.chunk.RenderChunk.rebuildChunk(RenderChunk.java:215)
+    at net.minecraft.client.renderer.chunk.ChunkRenderWorker.processTask(SourceFile:100)
+    at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:43)
+    at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Affected level --
+  Level name: MpServer
+  All players: 1 total; [EntityPlayerSP['ZoNiIc645'/75206, l='MpServer', x=-74.43, y=147.02, z=2020.30]]
+  Chunk stats: MultiplayerChunkCache: 563, 563
+  Level seed: 0
+  Level generator: ID 06 - tfc_classic, ver 0. Features enabled: false
+  Level generator options: 
+  Level spawn location: World: (160,144,252), Chunk: (at 0,9,12 in 10,15; contains blocks 160,0,240 to 175,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+  Level time: 534992 game time, 759113 day time
+  Level dimension: 0
+  Level storage version: 0x00000 - Unknown?
+  Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+  Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+  Forced entities: 66 total; [EntitySheepTFC['Sheep♀§r'/75395, l='MpServer', x=-122.16, y=149.00, z=1943.50], EntityBat['Bat'/75397, l='MpServer', x=-116.57, y=48.18, z=1973.88], EntityHorseTFC['Horse♀§r'/75399, l='MpServer', x=-126.75, y=149.00, z=1982.35], EntityBat['Bat'/75398, l='MpServer', x=-124.00, y=67.44, z=1980.25], EntityHorseTFC['Horse♀§r'/75401, l='MpServer', x=-120.74, y=149.00, z=1990.98], EntityBat['Bat'/75400, l='MpServer', x=-104.35, y=51.77, z=1949.15], EntityPlayerSP['ZoNiIc645'/75206, l='MpServer', x=-74.43, y=147.02, z=2020.30], EntitySheepTFC['Sheep♀§r'/75402, l='MpServer', x=-123.58, y=149.00, z=1995.21], EntityPigTFC['Pig♀§r'/75428, l='MpServer', x=-29.53, y=146.00, z=1958.87], EntityBat['Bat'/75437, l='MpServer', x=-86.19, y=59.14, z=1972.47], EntityChickenTFC['Rooster§r'/75311, l='MpServer', x=-79.67, y=86.00, z=1968.37], EntityBat['Bat'/75439, l='MpServer', x=-91.04, y=64.13, z=1980.30], EntityBat['Bat'/75310, l='MpServer', x=-78.24, y=56.58, z=1968.50], EntityChickenTFC['Chicken§r'/75438, l='MpServer', x=-90.50, y=70.00, z=1979.50], EntityChickenTFC['Chicken§r'/75440, l='MpServer', x=-84.55, y=54.00, z=1958.55], EntityDonkeyTFC['Donkey♀§r'/75443, l='MpServer', x=-85.84, y=148.00, z=1968.00], EntityPigTFC['Pig♂§r'/75442, l='MpServer', x=-95.64, y=144.00, z=1966.44], EntityBat['Bat'/75579, l='MpServer', x=0.99, y=51.03, z=2014.30], EntityPigTFC['Pig♀§r'/75322, l='MpServer', x=-65.48, y=149.00, z=2083.18], EntityBat['Bat'/75578, l='MpServer', x=2.22, y=47.01, z=2008.94], EntityBat['Bat'/75324, l='MpServer', x=-73.47, y=62.08, z=2009.41], EntityCowTFC['Bull§r'/75327, l='MpServer', x=-1.82, y=145.00, z=1960.52], EntityDonkeyTFC['Donkey♀§r'/75329, l='MpServer', x=-122.82, y=149.00, z=2008.12], EntityCowTFC['Bull§r'/75328, l='MpServer', x=-7.66, y=151.00, z=1952.16], EntityHorseTFC['Horse♀§r'/75330, l='MpServer', x=-118.34, y=149.00, z=2006.19], EntityChickenTFC['Chicken§r'/75333, l='MpServer', x=-145.28, y=112.00, z=1949.70], EntityItem['item.item.dyePowder.black'/75461, l='MpServer', x=-11.97, y=55.00, z=2017.19], EntityChickenTFC['Rooster§r'/75207, l='MpServer', x=-98.50, y=60.00, z=1996.50], EntityWolfTFC['Wolf♀§r'/75462, l='MpServer', x=-7.32, y=152.00, z=2019.30], EntityWolfTFC['Wolf♂§r'/75209, l='MpServer', x=-106.24, y=151.00, z=2037.46], EntityDonkeyTFC['Donkey♀§r'/75208, l='MpServer', x=-107.49, y=150.00, z=2044.91], EntityItem['item.item.dyePowder.black'/75211, l='MpServer', x=-49.70, y=59.00, z=2007.95], EntityWolfTFC['Wolf♂§r'/75467, l='MpServer', x=-57.48, y=146.00, z=1955.27], EntityItem['item.item.dyePowder.black'/75210, l='MpServer', x=-49.33, y=60.00, z=2009.17], EntitySheepTFC['Sheep♀§r'/75338, l='MpServer', x=-151.60, y=149.00, z=1992.84], EntityChickenTFC['Chicken§r'/75466, l='MpServer', x=-28.50, y=95.00, z=1940.50], EntitySquid['Squid'/75213, l='MpServer', x=-50.22, y=60.59, z=2009.67], EntityItem['item.item.dyePowder.black'/75212, l='MpServer', x=-52.25, y=58.00, z=2007.13], EntityBat['Bat'/75215, l='MpServer', x=-46.05, y=62.54, z=2002.76], EntityBat['Bat'/75214, l='MpServer', x=-43.15, y=63.71, z=2004.43], EntityPigTFC['Pig♀§r'/75217, l='MpServer', x=-36.90, y=151.00, z=2050.32], EntityDonkeyTFC['Donkey♀§r'/75601, l='MpServer', x=-25.85, y=149.00, z=2088.18], EntityChickenTFC['Rooster§r'/75216, l='MpServer', x=-33.79, y=72.00, z=2029.60], EntityPigTFC['Pig♀§r'/75477, l='MpServer', x=-52.86, y=149.00, z=2099.90], EntityItem['item.item.dyePowder.black'/75351, l='MpServer', x=-15.55, y=56.00, z=2003.07], EntityBat['Bat'/75607, l='MpServer', x=0.33, y=53.22, z=2017.16], EntityBat['Bat'/75606, l='MpServer', x=0.70, y=53.93, z=2025.40], EntityItem['item.item.dyePowder.black'/75353, l='MpServer', x=-12.88, y=57.00, z=2002.93], EntityItem['item.item.dyePowder.black'/75352, l='MpServer', x=-13.72, y=56.00, z=2002.74], EntityDonkeyTFC['Donkey♂§r'/75608, l='MpServer', x=-19.83, y=151.00, z=2064.94], EntityBat['Bat'/75355, l='MpServer', x=-8.23, y=57.02, z=2006.47], EntitySquid['Squid'/75354, l='MpServer', x=-10.60, y=54.00, z=2005.40], EntityBat['Bat'/75356, l='MpServer', x=-0.88, y=49.03, z=2007.28], EntityRabbitTFC['Rabbit♀§r'/75619, l='MpServer', x=-26.10, y=148.00, z=2097.52], EntityChickenTFC['Chicken§r'/75241, l='MpServer', x=-50.91, y=149.00, z=2077.43], EntityHorseTFC['Horse♂§r'/75373, l='MpServer', x=-133.82, y=149.00, z=1982.89], EntitySheepTFC['Sheep♀§r'/75372, l='MpServer', x=-134.50, y=161.00, z=1995.50], EntityCowTFC['Bull§r'/75500, l='MpServer', x=-32.38, y=146.00, z=1944.68], EntityHorseTFC['Horse♀§r'/75375, l='MpServer', x=-131.37, y=149.00, z=2020.21], EntitySheepTFC['Sheep♂§r'/75374, l='MpServer', x=-143.31, y=149.00, z=1978.92], EntityDonkeyTFC['Donkey♂§r'/75502, l='MpServer', x=-43.17, y=149.00, z=2080.13], EntitySheepTFC['Sheep♂§r'/75376, l='MpServer', x=-128.16, y=150.00, z=2032.46], EntityChickenTFC['Rooster§r'/75256, l='MpServer', x=-56.70, y=63.00, z=1972.50], EntityChickenTFC['Chicken§r'/75259, l='MpServer', x=-15.45, y=74.00, z=1969.45], EntityPigTFC['Pig♂§r'/75260, l='MpServer', x=-26.48, y=152.00, z=2046.45], EntityItem['item.item.dyePowder.black'/75262, l='MpServer', x=-17.83, y=58.00, z=2006.63]]
+  Retry entities: 0 total; []
+  Server brand: fml,forge
+  Server type: Integrated singleplayer server
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 1978373088 bytes (1886 MB) / 3957325824 bytes (3774 MB) up to 7578058752 bytes (7227 MB)
+  JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8130m -Xms256m -XX:PermSize=256m
+  IntCache: cache: 0, tcache: 0, allocated: 2, tallocated: 69
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 55 mods loaded, 55 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                   | Version                  | Source                                          | Signature                                |
+       |:------ |:-------------------- |:------------------------ |:----------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft            | 1.12.2                   | minecraft.jar                                   | None                                     |
+       | LCHIJA | mcp                  | 9.42                     | minecraft.jar                                   | None                                     |
+       | LCHIJA | FML                  | 8.0.99.99                | forge-1.12.2-14.23.5.2847.jar                   | None                                     |
+       | LCHIJA | forge                | 14.23.5.2847             | forge-1.12.2-14.23.5.2847.jar                   | None                                     |
+       | LCHIJA | foamfixcore          | 7.7.4                    | minecraft.jar                                   | None                                     |
+       | LCHIJA | forgeendertech       | 1.12.2-4.5.0.0           | ForgeEndertech-1.12.2-4.5.0.0-build.0435.jar    | None                                     |
+       | LCHIJA | adpother             | 1.12.2-1.1.2.0           | AdPother-1.12.2-1.1.2.0-build.0445.jar          | None                                     |
+       | LCHIJA | jei                  | 4.15.0.291               | jei_1.12.2-4.15.0.291.jar                       | None                                     |
+       | LCHIJA | theoneprobe          | 1.4.28                   | theoneprobe-1.12-1.4.28.jar                     | None                                     |
+       | LCHIJA | redstoneflux         | 2.1.0                    | RedstoneFlux-1.12-2.1.0.6-universal.jar         | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | cofhcore             | 4.6.3                    | CoFHCore-1.12.2-4.6.3.27-universal.jar          | None                                     |
+       | LCHIJA | cofhworld            | 1.3.1                    | CoFHWorld-1.12.2-1.3.1.7-universal.jar          | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | thermalfoundation    | 2.6.3                    | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | immersiveengineering | 0.12-92                  | ImmersiveEngineering-0.12-92.jar                | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+       | LCHIJA | alternatingflux      | 0.12.2-2                 | alternatingflux-0.12.2-2.jar                    | None                                     |
+       | LCHIJA | ctm                  | MC1.12.2-1.0.1.30        | CTM-MC1.12.2-1.0.1.30.jar                       | None                                     |
+       | LCHIJA | appliedenergistics2  | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar            | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+       | LCHIJA | architecturecraft    | @VERSION@                | architecturecraft-1.12-3.98.jar                 | None                                     |
+       | LCHIJA | chameleon            | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                        | None                                     |
+       | LCHIJA | chisel               | MC1.12.2-1.0.1.44        | Chisel-MC1.12.2-1.0.1.44.jar                    | None                                     |
+       | LCHIJA | codechickenlib       | 3.2.3.358                | CodeChickenLib-1.12.2-3.2.3.358-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | crafttweaker         | 4.1.20                   | CraftTweaker2-1.12-4.1.20.jar                   | None                                     |
+       | LCHIJA | ctgui                | 1.0.0                    | CraftTweaker2-1.12-4.1.20.jar                   | None                                     |
+       | LCHIJA | crafttweakerjei      | 2.0.3                    | CraftTweaker2-1.12-4.1.20.jar                   | None                                     |
+       | LCHIJA | mysticalmechanics    | 0.12                     | Mystical Mechanics-0.12.jar                     | None                                     |
+       | LCHIJA | embers               | 1.13-hotfix2             | EmbersRekindled-1.13-hotfix2.jar                | None                                     |
+       | LCHIJA | endercore            | 1.12.2-0.5.73            | EnderCore-1.12.2-0.5.73.jar                     | None                                     |
+       | LCHIJA | enderio              | 5.1.55                   | EnderIO-base-1.12.2-5.1.55.jar                  | None                                     |
+       | LCHIJA | enderiobase          | 5.1.55                   | EnderIO-base-1.12.2-5.1.55.jar                  | None                                     |
+       | LCHIJA | enderioconduits      | 5.1.55                   | EnderIO-conduits-1.12.2-5.1.55.jar              | None                                     |
+       | LCHIJA | enderiopowertools    | 5.1.55                   | EnderIO-conduits-1.12.2-5.1.55.jar              | None                                     |
+       | LCHIJA | foamfix              | 0.10.10-1.12.2           | foamfix-0.10.10-1.12.2.jar                      | None                                     |
+       | LCHIJA | immersivepetroleum   | 1.1.9                    | immersivepetroleum-1.12.2-1.1.9.jar             | None                                     |
+       | LCHIJA | immersiveposts       | 0.1.5                    | ImmersivePosts-0.1.5.jar                        | 0ba8738eadcf158e7fe1452255a73a022fb15feb |
+       | LCHIJA | immersivetech        | 1.3.10                   | immersivetech-1.12-1.3.10.jar                   | None                                     |
+       | LCHIJA | inventorytweaks      | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                        | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+       | LCHIJA | journeymap           | 1.12.2-5.5.9             | journeymap-1.12.2-5.5.9.jar                     | None                                     |
+       | LCHIJA | mech_crafting        | 1.1.1                    | MechanicalCrafting-1.1.1.jar                    | None                                     |
+       | LCHIJA | mousetweaks          | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar                   | None                                     |
+       | LCHIJA | mystgears            | 1.1.0                    | mystgears-1.1.0.jar                             | None                                     |
+       | LCHIJA | patchouli            | 1.0-20                   | Patchouli-1.0-20.jar                            | None                                     |
+       | LCHIJA | pollutantpump        | 1.1.0                    | pollutantpump-1.12.2-1.1.0.jar                  | None                                     |
+       | LCHIJA | prodigytech          | 1.3.4                    | prodigytech-1.12.2-1.3.4.jar                    | None                                     |
+       | LCHIJA | prodigymechanics     | 0.2                      | ProdigyMechanics-0.2.jar                        | None                                     |
+       | LCHIJA | rustic               | 1.1.2                    | rustic-1.1.2.jar                                | None                                     |
+       | LCHIJA | rustichromia         | 0.5                      | Rustichromia-0.5.jar                            | None                                     |
+       | LCHIJA | scannable            | 1.6.3.24                 | Scannable-MC1.12.2-1.6.3.24.jar                 | None                                     |
+       | LCHIJA | storagedrawers       | 1.12.2-5.4.1             | StorageDrawers-1.12.2-5.4.1.jar                 | None                                     |
+       | LCHIJA | tfc                  | 0.29.4.119               | TerraFirmaCraft-MC1.12.2-0.29.4.119.jar         | None                                     |
+       | LCHIJA | thermaldynamics      | 2.5.5                    | ThermalDynamics-1.12.2-2.5.5.21-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | topaddons            | 1.12.2-1.13.0            | topaddons-1.12.2-1.13.0.jar                     | None                                     |
+       | LCHIJA | vanillafix           | 1.0.10-SNAPSHOT          | VanillaFix-1.0.10-99.jar                        | None                                     |
+       | LCHIJA | wopper               | 1.12-r5                  | Wopper-1.12-r5.jar                              | None                                     |
+       | LCHIJA | zenutils             | 1.1                      | zenutils-1.0.jar                                | None                                     |
+       | LCHIJA | reauth               | 3.6.0                    | reauth-3.6.0.jar                                | daba0ec4df71b6da841768c49fb873def208a1e3 |
+  Loaded coremods (and transformers): CorePlugin (ForgeEndertech-1.12.2-4.5.0.0-build.0435.jar)
+                                        
+                                      Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      EnderCorePlugin (EnderCore-1.12.2-0.5.73-core.jar)
+                                        com.enderio.core.common.transform.EnderCoreTransformer
+                                        com.enderio.core.common.transform.SimpleMixinPatcher
+                                      IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+                                      LoadingPlugin (AdPother-1.12.2-1.1.2.0-build.0445.jar)
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Vanilla
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$DynamicSurroundings
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Weather2$Mesh
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Weather2$Render
+                                        com.endertech.minecraft.mods.adpother.transformers.ActuallyAdditions$FurnaceDouble
+                                        com.endertech.minecraft.mods.adpother.transformers.ActuallyAdditions$CoalGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.BetterWithMods$Furnace
+                                        com.endertech.minecraft.mods.adpother.transformers.CookingForBlockheads$Oven
+                                        com.endertech.minecraft.mods.adpother.transformers.DraconicEvolution$Generator
+                                        com.endertech.minecraft.mods.adpother.transformers.EmbersRekindled$EmberBore
+                                        com.endertech.minecraft.mods.adpother.transformers.EmbersRekindled$SteamEngine
+                                        com.endertech.minecraft.mods.adpother.transformers.EnderIO$StirlingGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.EngineersDecor$DecorFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.FastFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.FurnaceOverhaul$Furnace
+                                        com.endertech.minecraft.mods.adpother.transformers.FutureMC$AdvancedFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.FloodLights$CarbonFloodlight
+                                        com.endertech.minecraft.mods.adpother.transformers.Galacticraft$AutoRocket
+                                        com.endertech.minecraft.mods.adpother.transformers.Galacticraft$Buggy
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveCraft$FurnaceTE
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$TileEntityCokeOven
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$TileEntityBlastFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$TileEntityDieselGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersivePetroleum$Motorboat
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersivePetroleum$PortableGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveRailroading$LocomotiveDiesel
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveRailroading$LocomotiveSteam
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$CombustionChamber
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$BigChamberSolidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$BigChamberLiquidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Mekanism$FuelwoodHeater
+                                        com.endertech.minecraft.mods.adpother.transformers.Metallurgy$Alloyer
+                                        com.endertech.minecraft.mods.adpother.transformers.Metallurgy$Crusher
+                                        com.endertech.minecraft.mods.adpother.transformers.Minecraft$AnimalFeeding
+                                        com.endertech.minecraft.mods.adpother.transformers.MoreFurnaces$IronFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$InferiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$IntermediumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$PrudentiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$SuperiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$SupremiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$UltimateFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.Natura$NetherrackFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.PneumaticCraft$AirCompressor
+                                        com.endertech.minecraft.mods.adpother.transformers.Pyrotech$TileCombustion
+                                        com.endertech.minecraft.mods.adpother.transformers.RealisticTorches$BlockTorch
+                                        com.endertech.minecraft.mods.adpother.transformers.RFTools$CoalGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.StevesCarts$ModuleCoal
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileIronAlloyFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileIronFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileSolidFuelGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.TinkersConstruct$HeatingStructure
+                                        com.endertech.minecraft.mods.adpother.transformers.SimpleGrinder$CoalGrinder
+                                        com.endertech.minecraft.mods.adpother.transformers.UltimateCarMod$Car
+                                        com.endertech.minecraft.mods.adpother.transformers.ViesCraft$AirShip
+                                        com.endertech.minecraft.mods.adpother.renders.AerometerRender
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockCaughtFire
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockUpdateTick
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockExploded
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$GetSkyColor
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$FurnaceFuelBurned
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$LavaTouchesWater
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+  Ender IO: No known problems detected.
+            
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            !!!You are looking at the diagnostics information, not at the crash.       !!!
+            !!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:OFF, InvTweaks:ON, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:ON, TESLA:OFF, CRAFTTWEAKER:ON
+  Suspected Mods: Unknown
+  Launched Version: forge-14.23.5.2847
+  LWJGL: 2.9.4
+  OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: 
+  Current Language: English (US)
+  Profiler Position: N/A (disabled)
+  CPU: 12x Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz

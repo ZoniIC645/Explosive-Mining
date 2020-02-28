@@ -1,0 +1,53 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "prodigytech:guide": {
+      "viewedEntries": [
+        "prodigytech:hot_air/blower_furnace",
+        "prodigytech:introduction/gettingstarted",
+        "prodigytech:introduction/explosion_furnace_advanced",
+        "prodigytech:introduction/explosion_furnace",
+        "prodigytech:misc/materials",
+        "prodigymechanics:hot_air/hot_air_engine",
+        "prodigytech:hot_air/rotary_grinder",
+        "prodigytech:hot_air/incinerator",
+        "prodigytech:hot_air/heat_sawmill",
+        "prodigytech:misc/linear_extractor",
+        "prodigytech:misc/funnelling_extractor",
+        "prodigytech:misc/ferramic_handbow",
+        "prodigytech:misc/dispersing_extractor",
+        "prodigytech:hot_air/aeroheaters",
+        "prodigytech:circuits/solderer",
+        "prodigytech:hot_air/hot_air",
+        "prodigytech:hot_air/food_purifier",
+        "prodigytech:hot_air/magmatic_aeroheater",
+        "prodigytech:hot_air/solid_fuel_aeroheater",
+        "prodigytech:circuits/food_enricher",
+        "prodigytech:primordium/atomic_reshaper",
+        "prodigytech:circuits/ore_refinery",
+        "prodigytech:circuits/fuel_processor",
+        "prodigytech:circuits/heat_capacitor",
+        "prodigytech:circuits/wormhole_funnel",
+        "prodigytech:energion/energion_aeroheater"
+      ],
+      "bookmarks": [],
+      "history": [
+        "prodigytech:energion/energion_aeroheater",
+        "prodigytech:circuits/wormhole_funnel",
+        "prodigytech:circuits/heat_capacitor",
+        "prodigytech:circuits/fuel_processor",
+        "prodigymechanics:hot_air/hot_air_engine",
+        "prodigytech:hot_air/blower_furnace",
+        "prodigytech:hot_air/rotary_grinder",
+        "prodigytech:circuits/ore_refinery",
+        "prodigytech:primordium/atomic_reshaper",
+        "prodigytech:circuits/food_enricher",
+        "prodigytech:hot_air/magmatic_aeroheater",
+        "prodigytech:hot_air/incinerator",
+        "prodigytech:hot_air/solid_fuel_aeroheater"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
