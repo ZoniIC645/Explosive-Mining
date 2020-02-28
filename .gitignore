@@ -1,0 +1,31 @@
+
+usercache.json
+servers.dat
+saves/New World/stats/d60956f3-2fbe-4a13-9211-8387d008c5ad.json
+saves/New World/session.lock
+saves/New World/region/r.0.1.mca
+saves/New World/region/r.0.0.mca
+saves/New World/playerdata/d60956f3-2fbe-4a13-9211-8387d008c5ad.dat
+saves/New World/level.dat_old
+saves/New World/level.dat
+options.txt
+minecraftinstance.json
+logs/latest.log
+logs/2020-02-28-4.log.gz
+journeymap/journeymap.log
+journeymap/data/sp/New World/DIM0/night/0,0.png
+journeymap/data/sp/New World/DIM0/day/0,0.png
+journeymap/data/mp/Minecraft~Server/DIM0/topo/0,1.png
+journeymap/data/mp/Minecraft~Server/DIM0/topo/0,0.png
+journeymap/data/mp/Minecraft~Server/DIM0/night/0,1.png
+journeymap/data/mp/Minecraft~Server/DIM0/night/0,0.png
+journeymap/data/mp/Minecraft~Server/DIM0/day/0,1.png
+journeymap/data/mp/Minecraft~Server/DIM0/day/0,0.png
+crash-reports/crash-2020-02-28_17.10.40-client.txt
+crash-reports/crash-2020-02-28_17.08.40-client.txt
+crash-reports/crash-2020-02-28_16.43.53-client.txt
+crafttweaker.log
+config/splash.properties
+config/jei/worldSettings.cfg
+config/InvTweaks.cfg
+.mixin.out/audit/mixin_implementation_report.txt
