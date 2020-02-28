@@ -1,0 +1,32 @@
+{
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2020-02-28 15:33:59 +0900"
+    },
+    "done": true
+  },
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-02-28 15:33:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2020-02-28 15:33:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2020-02-28 15:33:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2020-02-28 15:33:59 +0900"
+    },
+    "done": true
+  }
+}

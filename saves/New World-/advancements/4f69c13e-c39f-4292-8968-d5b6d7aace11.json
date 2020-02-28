@@ -1,0 +1,26 @@
+{
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-02-28 15:34:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2020-02-28 15:34:35 +0900"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2020-02-28 15:34:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2020-02-28 15:34:26 +0900"
+    },
+    "done": false
+  }
+}
