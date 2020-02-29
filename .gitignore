@@ -1,4 +1,6 @@
-
+.mixin.out
+journeymap
+screenshots
 usercache.json
 servers.dat
 saves/New World/stats/d60956f3-2fbe-4a13-9211-8387d008c5ad.json
@@ -29,3 +31,11 @@ config/splash.properties
 config/jei/worldSettings.cfg
 config/InvTweaks.cfg
 .mixin.out/audit/mixin_implementation_report.txt
+.ReAuth.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/InvTweaks.cfg
+patchouli_data.json
+*.log
+logs
+usernamecache.json
