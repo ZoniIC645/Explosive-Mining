@@ -1,5 +1,10 @@
 {
   "lifeDatabase:10": {
-    "playerLives:9": {}
+    "playerLives:9": {
+      "0:10": {
+        "lives:3": 3,
+        "uuid:8": "4f69c13e-c39f-4292-8968-d5b6d7aace11"
+      }
+    }
   }
 }
