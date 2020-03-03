@@ -7700,6 +7700,7 @@ appliedenergistics2:facade:0, Cable Facade - Willow Leaves
 appliedenergistics2:facade:0, Cable Facade - Hevea Planks
 appliedenergistics2:facade:0, Cable Facade - Hevea Log
 appliedenergistics2:facade:0, Cable Facade - Hevea Leaves
+appliedenergistics2:facade:0, Cable Facade - Frame Block
 appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
 appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
 appliedenergistics2:facade:0, Cable Facade - Osmium Block
@@ -8120,10 +8121,10 @@ tfc:wooden_bucket:0, Vinegar Milk§r Bucket§r
 tfc:metal/bucket/blue_steel:0, Blue Steel Bucket
 tfc:metal/bucket/blue_steel:0, Lava§r Bucket§r
 tfc:metal/bucket/red_steel:0, Red Steel Bucket
-tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
-tfc:metal/bucket/red_steel:0, Water§r Bucket§r
-tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Hot water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
 tfc:rock/granite, Granite Rock
 tfc:rock/diorite, Diorite Rock
 tfc:rock/gabbro, Gabbro Rock
@@ -10908,6 +10909,18 @@ dynamictreestfc:branch/willow, Willow Branch
 dynamictreestfc:seed/willow, Willow Seed
 dynamictreestfc:branch/hevea, Hevea Branch
 dynamictreestfc:seed/hevea, Hevea Seed
+funkylocomotion:booster, Frame Booster
+funkylocomotion:frame_projector, Frame Projector
+funkylocomotion:pusher:0, Frame Pusher
+funkylocomotion:pusher:1, Frame Puller
+funkylocomotion:slider, Frame Slider
+funkylocomotion:teleporter, Frame Teleporter
+funkylocomotion:mass_frame_edge, Super-Frame Edge
+funkylocomotion:mass_frame_corner, Super-Frame Corner
+funkylocomotion:frame_0:0, Frame Block
+funkylocomotion:wrench:0, Wrench
+funkylocomotion:wrench:1, iWrench
+funkylocomotion:wrench:2, Wrench Hammer
 immersivepetroleum:metal_device:0, Automatic Lubricator
 immersivepetroleum:metal_device:1, Portable Generator
 immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
@@ -11787,13 +11800,6 @@ mysticalmechanics:gear_gold_off, Redstone Gear
 mysticalmechanics:gear_fan, Iron Fan
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
-mystgears:gear_wood, Plywood Gear
-mystgears:gear_stone, item.gear_stone.name
-mystgears:gear_diamond, item.gear_diamond.name
-mystgears:windup_box, Windup Box
-mystgears:redstone_dynamo, Redstone Dynamo
-patchouli:guide_book, Guide Book
-prodigymechanics:hot_air_engine, Hot Air Engine
 rustichromia:molten_steel, Molten Steel [WIP]
 rustichromia:block_steel, Solid Steel [WIP]
 rustichromia:receptacle, Extrusion Receptacle [WIP]
@@ -11831,6 +11837,18 @@ rustichromia:plate_wood, Plywood
 rustichromia:dust_flour, Flour
 rustichromia:wheat_chaff, Wheat Chaff
 rustichromia:press, Mechanical Press
+mystgears:gear_wood, Plywood Gear
+mystgears:gear_stone, item.gear_stone.name
+mystgears:gear_diamond, item.gear_diamond.name
+mystgears:gear_black_hole, Black Hole Gear
+mystgears:gear_googly_eye, Googly Eye
+mystgears:windup_box, Windup Box
+mystgears:redstone_dynamo, Redstone Dynamo
+mystgears:mechanical_dial, Mechanical Dial
+mystgears:drill, Drill
+mystgears:drill_diamond, Diamond Drill
+patchouli:guide_book, Guide Book
+prodigymechanics:hot_air_engine, Hot Air Engine
 gravelores:coal_gravel_ore, Coal Gravel Ore
 gravelores:iron_gravel_ore, Iron Gravel Ore
 gravelores:lapis_gravel_ore, Lapis Gravel Ore

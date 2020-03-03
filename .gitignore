@@ -23,9 +23,7 @@ journeymap/data/mp/Minecraft~Server/DIM0/night/0,1.png
 journeymap/data/mp/Minecraft~Server/DIM0/night/0,0.png
 journeymap/data/mp/Minecraft~Server/DIM0/day/0,1.png
 journeymap/data/mp/Minecraft~Server/DIM0/day/0,0.png
-crash-reports/crash-2020-02-28_17.10.40-client.txt
-crash-reports/crash-2020-02-28_17.08.40-client.txt
-crash-reports/crash-2020-02-28_16.43.53-client.txt
+crash-reports
 crafttweaker.log
 config/splash.properties
 config/jei/worldSettings.cfg
@@ -39,3 +37,5 @@ patchouli_data.json
 *.log
 logs
 usernamecache.json
+config/AppliedEnergistics2/VersionChecker.cfg
+config/InvTweaks.cfg

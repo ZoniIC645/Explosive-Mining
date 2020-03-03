@@ -23,6 +23,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2020-03-02 13:14:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2020-03-02 13:14:59 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_stained_glass": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
@@ -50,6 +62,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2020-02-28 14:27:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-03-02 13:33:18 +0900"
     },
     "done": true
   },
@@ -107,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-03-02 13:15:15 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
@@ -146,6 +170,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2020-02-26 12:43:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2020-03-02 13:14:53 +0900"
     },
     "done": true
   },
@@ -215,6 +245,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_pump": {
+    "criteria": {
+      "craft_hammer": "2020-03-02 17:22:17 +0900"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "melon": "2020-02-26 17:03:51 +0900",
@@ -270,6 +306,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2020-03-02 13:14:53 +0900"
+    },
+    "done": true
+  },
   "nuclearcraft:root": {
     "criteria": {
       "location": "2020-02-27 22:08:55 +0900"
@@ -291,6 +333,12 @@
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_bonemeal": "2020-02-27 15:41:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-03-02 13:15:15 +0900"
     },
     "done": true
   },
