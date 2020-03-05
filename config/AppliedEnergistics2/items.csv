@@ -3775,6 +3775,10 @@ chisel:wool_orange:0, Orange Wool
 chisel:wool_orange:1, Orange Wool
 chisel:wool_white:0, Wool
 chisel:wool_white:1, Wool
+minerstoolbox:dynamite, Dynamite
+minerstoolbox:improved_dynamite, Improved Dynamite
+minerstoolbox:enhanced_dynamite, Enhanced Dynamite
+minerstoolbox:infinity_dynamite, Infinity Dynamite
 forge:bucketfilled, %s Bucket
 engineersdecor:treated_wood_crafting_table, Treated Wood Crafting Table
 engineersdecor:small_lab_furnace, Small Laboratory Furnace
@@ -8122,9 +8126,9 @@ tfc:metal/bucket/blue_steel:0, Blue Steel Bucket
 tfc:metal/bucket/blue_steel:0, Lava§r Bucket§r
 tfc:metal/bucket/red_steel:0, Red Steel Bucket
 tfc:metal/bucket/red_steel:0, Hot water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
-tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
 tfc:rock/granite, Granite Rock
 tfc:rock/diorite, Diorite Rock
 tfc:rock/gabbro, Gabbro Rock
@@ -11352,6 +11356,7 @@ mekanism:plasticfence:13, §dMagenta Plastic Barrier
 mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
+minerstoolbox:detonator, Detonator
 prodigytech:explosion_furnace, Explosion Furnace
 prodigytech:magmatic_aeroheater, Magmatic Aeroheater
 prodigytech:solid_fuel_aeroheater, Solid Fuel Aeroheater
@@ -11447,6 +11452,27 @@ questbook:itemquestbook, Quest Book
 simplewoodenpipes:pipe, Wooden Pipe
 simplewoodenpipes:pump, Pump
 bq_standard:loot_chest, Loot Chest
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -11497,27 +11523,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 tfctech:pot_ash, Pot with Ash Powder
 tfctech:pot_potash, Pot with Potash
 tfctech:powder/potash, Potash
