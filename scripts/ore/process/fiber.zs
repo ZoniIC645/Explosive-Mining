@@ -13,7 +13,11 @@ import mods.rustichromia.Quern;
 Barrel.addRecipe("fiber", <tfc:straw>*2, <liquid:creosote>*100, <tfc:crop/product/jute_fiber>, null, 2);
 
 //진 레시피 수정(철들어감)
-recipes.addShaped(<rustichromia:gin>, [[<mystgears:gear_wood>, null, <mystgears:gear_wood>],[<rustichromia:axle_wood>, <mystgears:gear_stone>, <rustichromia:axle_wood>], [<tfc:wood/lumber/acacia>, <tfc:wood/lumber/acacia>, <tfc:wood/lumber/acacia>]]);
+recipes.addShaped(<rustichromia:gin>, [
+	[<mystgears:gear_wood>, null, <mystgears:gear_wood>],
+	[<rustichromia:axle_wood>, <mystgears:gear_stone>, <rustichromia:axle_wood>], 
+	[<tfc:wood/lumber/acacia>, <tfc:wood/lumber/acacia>, <tfc:wood/lumber/acacia>]
+]);
 
 
 //진으로 섬유 -> 벌레머시기랑 메시
