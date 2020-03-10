@@ -1442,6 +1442,7 @@ rustic:oliveseed, Olive Pit
 rustic:ironwoodbranch, Dynamic Ironwood Tree
 rustic:ironwoodbranchx, tile.rustic:ironwoodbranchx.name
 rustic:ironwoodseed, Ironberry Seeds
+tombmanygraves:death_list, Death Inventory List
 chisel:blockaluminum:0, Block of Aluminum
 chisel:blockaluminum:1, Block of Aluminum
 chisel:blockaluminum:2, Block of Aluminum
@@ -8125,8 +8126,8 @@ tfc:wooden_bucket:0, Vinegar Milk§r Bucket§r
 tfc:metal/bucket/blue_steel:0, Blue Steel Bucket
 tfc:metal/bucket/blue_steel:0, Lava§r Bucket§r
 tfc:metal/bucket/red_steel:0, Red Steel Bucket
-tfc:metal/bucket/red_steel:0, Hot water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Hot water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
 tfc:rock/granite, Granite Rock
@@ -11357,6 +11358,17 @@ mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
 minerstoolbox:detonator, Detonator
+modulardiversity:blockjackhatch, Pumpjack Hatch
+modulardiversity:blockhotairinputhatch, Hot Air Input Hatch
+modulardiversity:blockhotairoutputhatch, Hot Air Output Hatch
+modulardiversity:blockmeklaseracceptor, Mekanism Laser Acceptor
+modulardiversity:blockmekheatinput, Mekanism Heat Input
+modulardiversity:blockmekheatoutput, Mekanism Heat Output
+modulardiversity:blockmystmechinput, Mystical Mechanical Input
+modulardiversity:blockmystmechoutput, Mystical Mechanical Output
+modulardiversity:blockbiomedetector, Biome Detector
+modulardiversity:blockdaylightdetector, Time Detector
+modulardiversity:blockweatherdetector, Weather Detector
 prodigytech:explosion_furnace, Explosion Furnace
 prodigytech:magmatic_aeroheater, Magmatic Aeroheater
 prodigytech:solid_fuel_aeroheater, Solid Fuel Aeroheater
@@ -11452,27 +11464,6 @@ questbook:itemquestbook, Quest Book
 simplewoodenpipes:pipe, Wooden Pipe
 simplewoodenpipes:pump, Pump
 bq_standard:loot_chest, Loot Chest
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -11523,6 +11514,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 tfctech:pot_ash, Pot with Ash Powder
 tfctech:pot_potash, Pot with Potash
 tfctech:powder/potash, Potash
@@ -11805,6 +11817,62 @@ mysticalmechanics:gear_gold_off, Redstone Gear
 mysticalmechanics:gear_fan, Iron Fan
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
+modularmachinery:blockcontroller, Machine Controller
+modularmachinery:blockcasing:0, Machine Casing
+modularmachinery:blockcasing:1, Machine Vent
+modularmachinery:blockcasing:2, Firebox Casing
+modularmachinery:blockcasing:3, Machine Gearbox
+modularmachinery:blockcasing:4, Reinforced Machine Casing
+modularmachinery:blockcasing:5, Machine Circuitry
+modularmachinery:blockinputbus:0, Tiny Item Input
+modularmachinery:blockinputbus:1, Small Item Input
+modularmachinery:blockinputbus:2, Normal Item Input
+modularmachinery:blockinputbus:3, Reinforced Item Input
+modularmachinery:blockinputbus:4, Big Item Input
+modularmachinery:blockinputbus:5, Huge Item Input
+modularmachinery:blockinputbus:6, Ludicrous Item Input
+modularmachinery:blockoutputbus:0, Tiny Item Output
+modularmachinery:blockoutputbus:1, Small Item Output
+modularmachinery:blockoutputbus:2, Normal Item Output
+modularmachinery:blockoutputbus:3, Reinforced Item Output
+modularmachinery:blockoutputbus:4, Big Item Output
+modularmachinery:blockoutputbus:5, Huge Item Output
+modularmachinery:blockoutputbus:6, Ludicrous Item Output
+modularmachinery:blockfluidinputhatch:0, Tiny Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:1, Small Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:2, Normal Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:3, Reinforced Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:4, Big Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:5, Huge Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:6, Ludicrous Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:7, Vacuum Fluid Input Hatch
+modularmachinery:blockfluidoutputhatch:0, Tiny Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:1, Small Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:2, Normal Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:3, Reinforced Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:4, Big Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:5, Huge Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:6, Ludicrous Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:7, Vacuum Fluid Output Hatch
+modularmachinery:blockenergyinputhatch:0, Tiny Energy Input Hatch
+modularmachinery:blockenergyinputhatch:1, Small Energy Input Hatch
+modularmachinery:blockenergyinputhatch:2, Normal Energy Input Hatch
+modularmachinery:blockenergyinputhatch:3, Reinforced Energy Input Hatch
+modularmachinery:blockenergyinputhatch:4, Big Energy Input Hatch
+modularmachinery:blockenergyinputhatch:5, Huge Energy Input Hatch
+modularmachinery:blockenergyinputhatch:6, Ludicrous Energy Input Hatch
+modularmachinery:blockenergyinputhatch:7, Ultimate Energy Input Hatch
+modularmachinery:blockenergyoutputhatch:0, Tiny Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:1, Small Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:2, Normal Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:3, Reinforced Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:4, Big Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:5, Huge Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:6, Ludicrous Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:7, Ultimate Energy Output Hatch
+modularmachinery:itemblueprint, Machine Blueprint
+modularmachinery:itemmodularium, Modularium
+modularmachinery:itemconstructtool, Construct Selection Tool
 rustichromia:molten_steel, Molten Steel [WIP]
 rustichromia:block_steel, Solid Steel [WIP]
 rustichromia:receptacle, Extrusion Receptacle [WIP]

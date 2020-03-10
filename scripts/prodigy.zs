@@ -24,3 +24,26 @@ for item in loadedMods["prodigytech"].items {
 	if(!isExcept)
 		mods.jei.JEI.hide(item);
 }
+
+//프로디지 - 에어로히터/퍼널 수정
+recipes.remove(<prodigytech:solid_fuel_aeroheater>);
+recipes.remove(<prodigytech:air_funnel>);
+recipes.remove(<prodigymechanics:hot_air_engine>);
+
+recipes.addShaped(<prodigytech:solid_fuel_aeroheater>, [
+	[<ore:stone>, <ore:stone>, <ore:stone>],
+	[<ore:stone>, <prodigymechanics:hot_air_engine>, <ore:stone>],
+	[<ore:stone>, <ore:stone>, <ore:stone>]
+]);
+
+recipes.addShaped(<prodigytech:air_funnel>, [
+	[<ore:brick>, null, <ore:brick>],
+	[<ore:brick>, null, <ore:brick>],
+	[<ore:ingotBrick>, null, <ore:ingotBrick>]]
+);
+
+recipes.addShaped(<prodigymechanics:hot_air_engine>, [
+	[<prodigytech:air_funnel>, null, <prodigytech:air_funnel>],
+	[<rustichromia:axle_wood>, <mystgears:gear_stone>, <mystgears:gear_stone>],
+	[<ore:brick>, <ore:brick>, <ore:brick>]
+]);

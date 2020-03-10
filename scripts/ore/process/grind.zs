@@ -7,9 +7,21 @@ import mods.terrafirmacraft.Heating;
 import mods.terrafirmacraft.ItemRegistry;
 import mods.rustichromia.Gin;
 import mods.rustichromia.Quern;
+import crafttweaker.event.BlockHarvestDropsEvent;
+
+//석탄 갈갈갈 
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
+    if(event.blockState.matches(<blockstate:gravelores:coal_gravel_ore>))
+    	event.drops = [<gravelores:coal_gravel_ore>];
+});
+
+mods.terrafirmacraft.Quern.addRecipe("gravelcoal", <gravelores:coal_gravel_ore> , <tfc:ore/bituminous_coal>);
+mods.rustichromia.Quern.add("gravelcoal", [<gravelores:coal_gravel_ore>], [<tfc:ore/bituminous_coal>], 10, 100, 160);
+
+furnace.setFuel(<tfc:ore/bituminous_coal>,1600);
+
 
 //초반 정제요
-
 var NuggetToOreNameMap = {
 	<tfc:ore/small/bismuthinite>	:"Bismuth",
 	<tfc:ore/small/cassiterite>		:"Tin",

@@ -74,7 +74,7 @@ mods.rustichromia.Quern.add("saltpeter", [sedimentary * 20], [ <tfc:powder/saltp
 	mods.rustichromia.Quern.add("foodsulfur", [ food] , [<tfc:powder/sulfur>*4], 10, 100, 160);
 
 //석탄가루
-	//석탄가루 레시피 추가함 (<thermalfoundation:material:768> - 수정가능)
+	//석탄가루 레시피 추가함
 	var coaldust = <prodigytech:coal_dust> as IItemStack;
 	
 	mods.terrafirmacraft.Quern.addRecipe("coaldust", <tfc:ore/bituminous_coal> , coaldust);

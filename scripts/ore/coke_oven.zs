@@ -32,10 +32,10 @@ recipes.addShaped(<immersiveengineering:tool>, [
 
 	//최종조합
 	recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [
-	[<minecraft:brick>, <ore:itemClay>, <minecraft:brick>],
-	[<ore:itemClay>, <ore:sand>, <ore:itemClay>], 
-	[<minecraft:brick>, <ore:itemClay>, <minecraft:brick>]
-	]);
+	[<minecraft:brick>, <ore:clay>, <minecraft:brick>],
+	[<ore:clay>, <ore:sand>, <ore:clay>], 
+	[<minecraft:brick>, <ore:clay>, <minecraft:brick>]
+	] );
 
 //석탄으로 코크콜
 CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <tfc:ore/bituminous_coal>*2, 2000);

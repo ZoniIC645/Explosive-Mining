@@ -9,4 +9,8 @@ mods.rustichromia.Quern.add("flux_2", [<tfc:ore/borax>], [<tfc:powder/flux>*6], 
 
 //플럭스 + 코크가루 + 석탄가루 -> 내화점토
 var coaldust = <prodigytech:coal_dust>;
-recipes.addShaped(<tfc:ceramics/fire_clay>, [[coaldust, <immersiveengineering:material:17>, <tfc:powder/flux>],[<immersiveengineering:material:17>, <minecraft:clay_ball>, <immersiveengineering:material:17>], [<tfc:powder/flux>, <immersiveengineering:material:17>, coaldust]]);
+recipes.addShaped(<tfc:ceramics/fire_clay>, [
+	[coaldust, <immersiveengineering:material:17>, <tfc:powder/flux>],
+	[<immersiveengineering:material:17>, <minecraft:clay_ball>, <immersiveengineering:material:17>], 
+	[<tfc:powder/flux>, <immersiveengineering:material:17>, coaldust]
+]);
