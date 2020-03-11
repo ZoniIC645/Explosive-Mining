@@ -10,9 +10,9 @@ iron_rod.addMysticalMechanicsInput(10, 100);
 
 iron_rod.build();
 
-var testengine = RecipeBuilder.newBuilder("fire", "testengine", 10) as RecipePrimer;
+var testengine = RecipeBuilder.newBuilder("fire", "testengine", 50) as RecipePrimer;
 
 testengine.addItemInput(<ore:gemCoal>);
-testengine.addMysticalMechanicsOutput(10,10);
+testengine.addMysticalMechanicsOutput(10,50);
 
 testengine.build();
