@@ -7,6 +7,7 @@ iron_rod.addItemInput(<ore:ingotWroughtIron>);
 iron_rod.addItemOutput(<tfctech:metal/wrought_iron_rod>);
 
 iron_rod.addMysticalMechanicsInput(10, 100);
+iron_rod.addMysticalMechanicsOutput(10,99);
 
 iron_rod.build();
 

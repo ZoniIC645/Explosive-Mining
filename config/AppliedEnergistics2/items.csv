@@ -4657,6 +4657,7 @@ appliedenergistics2:facade:0, Cable Facade - Sky Stone
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Block
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Brick
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Small Brick
+appliedenergistics2:facade:0, Cable Facade - Dense Construction Block
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
@@ -8062,12 +8063,28 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
+baubles:ring:0, Miner's Ring
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
 betterquesting:extra_life:2, Quarter Heart
 betterquesting:guide_book, Better Questing Starter Guide
 betterquesting:submit_station, Object Submission Station (OSS)
+buildinggadgets:buildingtool, Building Gadget
+buildinggadgets:exchangertool, Exchanging Gadget
+buildinggadgets:copypastetool, Copy-Paste Gadget
+buildinggadgets:templatemanager, Template Manager
+buildinggadgets:template, Template
+buildinggadgets:destructiontool, Destruction Gadget
+buildinggadgets:constructionblock_dense, Dense Construction Block
+buildinggadgets:constructionblock, Construction Block
+buildinggadgets:constructionblockpowder, Construction Block Powder
+buildinggadgets:constructionpaste, Construction Paste
+buildinggadgets:construction_chunk_dense, Dense Construction Chunk
+buildinggadgets:constructionpastecontainer, Paste Container
+buildinggadgets:constructionpastecontainert2, Paste Container T2
+buildinggadgets:constructionpastecontainert3, Paste Container T3
+buildinggadgets:constructionpastecontainercreative, Creative Paste Container
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
@@ -8127,9 +8144,9 @@ tfc:metal/bucket/blue_steel:0, Blue Steel Bucket
 tfc:metal/bucket/blue_steel:0, Lava§r Bucket§r
 tfc:metal/bucket/red_steel:0, Red Steel Bucket
 tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Hot water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Water§r Bucket§r
-tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
 tfc:rock/granite, Granite Rock
 tfc:rock/diorite, Diorite Rock
 tfc:rock/gabbro, Gabbro Rock
@@ -10926,6 +10943,15 @@ funkylocomotion:frame_0:0, Frame Block
 funkylocomotion:wrench:0, Wrench
 funkylocomotion:wrench:1, iWrench
 funkylocomotion:wrench:2, Wrench Hammer
+hooked:hook:0, Wooden Hook
+hooked:hook:1, Iron Hook
+hooked:hook:2, Diamond Hook
+hooked:hook:3, Red Hook
+hooked:hook:4, Ender Hook
+hooked:microcrafting:0, Plant Fiber
+hooked:microcrafting:1, Rope
+hooked:microcrafting:2, Iron Chain Link
+hooked:microcrafting:3, Iron Chain
 immersivepetroleum:metal_device:0, Automatic Lubricator
 immersivepetroleum:metal_device:1, Portable Generator
 immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
@@ -11796,6 +11822,7 @@ theoneprobe:probenote, The One Probe Read Me
 theoneprobe:diamond_helmet_probe:0, Diamond Helmet with Probe
 theoneprobe:gold_helmet_probe:0, Gold Helmet with Probe
 theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
+theoneprobe:probe_goggles, The One Probe (Bauble)
 architecturecraft:sawblade, Circular Saw Blade
 architecturecraft:largepulley, Large Pulley
 architecturecraft:chisel, Architect's Chisel

@@ -80,6 +80,6 @@ recipes.addShaped(<rustichromia:windmill_blade>,
 	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:slabTreatedWood>]]);
 
 recipes.addShaped(<rustichromia:windmill>, 
-	[[<rustichromia:windmill_blade>, <tfc:crop/product/jute_fiber>, <rustichromia:windmill_blade>],
-	[<tfc:crop/product/jute_fiber>, <ore:gearWood>, <tfc:crop/product/jute_fiber>], 
-	[<rustichromia:windmill_blade>, <tfc:crop/product/jute_fiber>, <rustichromia:windmill_blade>]]);
+	[[<rustichromia:windmill_blade>, <tfc:crop/product/burlap_cloth>, <rustichromia:windmill_blade>],
+	[<tfc:crop/product/burlap_cloth>, <ore:gearWood>, <tfc:crop/product/burlap_cloth>], 
+	[<rustichromia:windmill_blade>, <tfc:crop/product/burlap_cloth>, <rustichromia:windmill_blade>]]);

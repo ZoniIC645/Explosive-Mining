@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2020-03-12 00:42:15 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
@@ -80,6 +86,12 @@
   "minecraft:recipes/decorations/green_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2020-03-12 00:34:11 +0900"
     },
     "done": true
   },
@@ -140,6 +152,12 @@
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2020-02-26 21:06:28 +0900"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2020-03-12 13:34:04 +0900"
     },
     "done": true
   },
@@ -206,6 +224,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_heater": {
+    "criteria": {
+      "craft_hammer": "2020-03-12 00:27:52 +0900"
     },
     "done": true
   },
