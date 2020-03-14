@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/multiblock_blastfurnace": {
+    "criteria": {
+      "form_improvedblastfurnace": "2020-03-13 22:15:48 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
@@ -44,6 +50,12 @@
   "immersiveengineering:main/root": {
     "criteria": {
       "hold_manual": "2020-03-12 00:42:15 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2020-03-14 17:06:03 +0900"
     },
     "done": true
   },
@@ -140,6 +152,12 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2020-03-02 13:15:15 +0900"
+    },
+    "done": true
+  },
+  "prodigytech:main/root": {
+    "criteria": {
+      "crafting_table": "2020-03-14 17:06:03 +0900"
     },
     "done": true
   },
@@ -300,6 +318,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/multiblock_improvedblastfurnace": {
+    "criteria": {
+      "form_blastfurnace": "2020-03-13 22:15:48 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-26 12:38:50 +0900"
@@ -345,6 +369,12 @@
   "nuclearcraft:root": {
     "criteria": {
       "location": "2020-02-27 22:08:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2020-03-14 17:06:03 +0900"
     },
     "done": true
   },
