@@ -1,224 +1,1338 @@
 {
     "registryname": "blast_furnace",
-    "localizedname": "Blast Furnace",
-    "color" : "331A20",
+    "localizedname": "Inudstrial Blast Furnace",
+    "color" : "505050",
     "parts": [
         {
-            "x": -1,
+            "x": -4,
             "y": 0,
-            "z": 0,
+            "z": 4,
             "elements": [
-                "immersiveengineering:metal_decoration1@0"
+                "immersiveengineering:sheetmetal_slab@8"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 1,
+            "x": -3,
+            "y": 2,
+            "z": 5,
             "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:lava"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": -1,
             "y": 0,
-            "z": 2,
-            "elements": [
-                "tfc:blast_furnace"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:nether_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "tfc:blast_furnace"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "minecraft:nether_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
             "z": 0,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch@2"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "minecraft:nether_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
             "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
+            "y": 2,
             "z": 1,
-            "elements": [
-                "minecraft:stone_slab@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modulardiversity:blockhotairinputhatch@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:nether_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
             "elements": [
                 "modularmachinery:blockenergyoutputhatch@3"
             ]
         },
         {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:air@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@2"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tfc:crucible"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:air@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"9b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1"},"id":"immersiveengineering:fluidpipe","connections":"4b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
             "z": 2,
             "elements": [
                 "minecraft:nether_brick@0"
             ]
         },
         {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "tfc:blast_furnace"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
             "x": 1,
-            "y": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1"},"id":"immersiveengineering:fluidpipe","connections":"34b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_device0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"},"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"9b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"},"id":"immersiveengineering:fluidpipe","connections":"6b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"},"id":"immersiveengineering:fluidpipe","connections":"16b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "nbt": {"dummy":"0","facing":"5","id":"immersiveengineering:blastfurnacepreheater"},
+            "x": 0,
+            "y": 7,
+            "z": 4,
             "elements": [
-                "immersiveengineering:metal_device1@0"
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
             ]
         },
         {
             "x": 1,
-            "y": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
             "z": 2,
             "elements": [
                 "minecraft:nether_brick@0"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "nbt": {"dummy":"0","facing":"5","id":"immersiveengineering:blastfurnacepreheater"},
+            "x": 0,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "immersiveengineering:metal_device1@0"
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modulardiversity:blockhotairinputhatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modulardiversity:blockhotairinputhatch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "nbt": {"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
             ]
         }
     ]}

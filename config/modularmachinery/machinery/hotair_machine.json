@@ -8,7 +8,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modulardiversity:blockmekheatinput@0"
+                "mekanism:basicblock2@5"
             ]
         },
         {
@@ -16,11 +16,11 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "mekanism:basicblock2@5"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 0,
             "z": 1,
             "elements": [
@@ -32,7 +32,15 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "mekanism:basicblock2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modulardiversity:blockhotairoutputhatch@0"
             ]
         },
         {
@@ -40,7 +48,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "mekanism:basicblock2@5"
             ]
         },
         {
@@ -48,7 +56,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "modulardiversity:blockmekheatinput@0"
             ]
         }
     ]}

@@ -3138,9 +3138,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "mekanism:basicblock2",
+            "id:8": "chisel:factory",
             "Count:3": 1,
-            "Damage:2": 5,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
