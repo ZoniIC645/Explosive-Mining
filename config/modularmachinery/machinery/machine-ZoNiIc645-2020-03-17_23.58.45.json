@@ -1,0 +1,1454 @@
+{
+    "parts": [
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"input":"0b","size":"2","casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidoutputhatch","tank":{"Empty":"","gasTag":{"Empty":""}}},
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "nbt": {"hatchSize":"3","casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileenergyoutputhatch","energy":"0L"},
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "nbt": {"busSize":"2","casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"},{"holderEmpty":"1b","holderId":"4"},{"holderEmpty":"1b","holderId":"5"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockinputbus@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"alloy":{"totalAmount":"0","contents":{},"maxAmount":"3000"},"temp":"0.0f","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"tfc:crucible","inventory":{"Size":"10","Items":[]}},
+            "elements": [
+                "tfc:crucible@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"9b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"4b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "nbt": {"alloy":{"totalAmount":"0","contents":{},"maxAmount":"3000"},"ores":[],"burnTemperature":"0.0f","fuels":[],"burnTicksLeft":"0L","inventory":{"Size":"1","Items":[]},"airTicks":"0L","temperature":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"tfc:blast_furnace"},
+            "elements": [
+                "tfc:blast_furnace@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"34b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "tfc:wall/smooth/shale@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "nbt": {"dummy":"0b","sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"ifluxEnergy":"0","id":"immersiveengineering:fluidpump","placeCobble":"1b","tank":{"Empty":""}},
+            "elements": [
+                "immersiveengineering:metal_device0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "nbt": {"dummy":"1b","sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"ifluxEnergy":"0","id":"immersiveengineering:fluidpump","placeCobble":"1b","tank":{"Empty":""}},
+            "elements": [
+                "immersiveengineering:metal_device0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "engineersdecor:metal_rung_ladder@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"9b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"6b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"16b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","airtemp":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilehotairinput"},
+            "elements": [
+                "modulardiversity:blockhotairinputhatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","airtemp":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilehotairinput"},
+            "elements": [
+                "modulardiversity:blockhotairinputhatch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "nbt": {"casingColor":"5263440","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:nether_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"mekanism:structural_glass"},
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        }
+    ]}
