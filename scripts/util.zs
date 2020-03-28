@@ -30,3 +30,9 @@ var TFCWoodenBarrel = oreDict.get("tfcwoodenbarrel") as IOreDictEntry;
 for barrel in barrelArray{
 	TFCWoodenBarrel.add(barrel);
 }
+
+//iron -> wrought iron
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
+
+//어셈블러 전체삭제
+mods.rustichromia.Assembler.removeAll();

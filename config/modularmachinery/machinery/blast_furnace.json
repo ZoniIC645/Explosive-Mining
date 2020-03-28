@@ -575,7 +575,7 @@
             "x": -1,
             "y": 9,
             "z": 3,
-                        "nbt": {"dummy":"0b","id":"immersiveengineering:fluidpump"},
+            "nbt": {"dummy":"0b","id":"immersiveengineering:fluidpump"},
             "elements": [
                 "immersiveengineering:metal_device0@5"
             ]

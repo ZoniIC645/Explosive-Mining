@@ -9,7 +9,8 @@ var ExceptList = [
 	<prodigytech:air_funnel>			,
 	<prodigytech:wormhole_funnel>		,
 	<prodigytech:wormhole_linker>		,
-	<prodigytech:coal_dust>
+	<prodigytech:coal_dust>				,
+	<prodigytech:tartaric_stoker>
 ] as IItemStack[];
 
 for item in loadedMods["prodigytech"].items {

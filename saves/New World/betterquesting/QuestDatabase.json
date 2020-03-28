@@ -1068,11 +1068,29 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Fire Clay",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfc:ceramics/fire_clay",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "18:10": {
@@ -1095,11 +1113,13 @@
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -1408,11 +1428,13 @@
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -1517,11 +1539,42 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Sibal",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfc:crucible",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "Parent:10": {
+                  "heat:5": 0.0,
+                  "Empty:8": "",
+                  "ticks:4": -1
+                }
+              },
+              "id:8": "tfc:ceramics/fired/mold/ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "27:10": {
@@ -1645,11 +1698,35 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Bloom",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfc:bloomery",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tfc:smooth/rocksalt",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "stone"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "30:10": {
@@ -1671,11 +1748,13 @@
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -1690,11 +1769,43 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Double Bronze",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "Parent:10": {
+                  "heat:5": 0.0,
+                  "ticks:4": -1,
+                  "forge:10": {
+                    "work:3": 0,
+                    "steps:10": {
+                      "last:3": -1,
+                      "third:3": -1,
+                      "second:3": -1
+                    }
+                  }
+                }
+              },
+              "id:8": "tfc:metal/double_ingot/bismuth_bronze",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "ingotDoubleAnyBronze"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "31:10": {
@@ -1818,21 +1929,25 @@
               "tfc:item_forge:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               },
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -1847,11 +1962,55 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "I\u0027m Wrought",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "tfc:item_forge:10": {
+                  "heat:5": 0.0,
+                  "ticks:4": -1,
+                  "forge:10": {
+                    "work:3": 0,
+                    "steps:10": {
+                      "last:3": -1,
+                      "third:3": -1,
+                      "second:3": -1
+                    }
+                  }
+                },
+                "Parent:10": {
+                  "heat:5": 0.0,
+                  "ticks:4": -1,
+                  "forge:10": {
+                    "work:3": 0,
+                    "steps:10": {
+                      "last:3": -1,
+                      "third:3": -1,
+                      "second:3": -1
+                    }
+                  }
+                }
+              },
+              "id:8": "tfc:metal/ingot/wrought_iron",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "34:10": {
@@ -1913,11 +2072,29 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Bellow",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfc:bellows",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "36:10": {
@@ -1939,11 +2116,13 @@
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -1968,7 +2147,7 @@
     "37:10": {
       "questID:3": 37,
       "preRequisites:11": [
-        34
+        36
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1984,21 +2163,25 @@
               "tfc:item_forge:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               },
               "Parent:10": {
                 "heat:5": 0.0,
                 "ticks:4": -1,
-                "work:3": 0,
-                "steps:10": {
-                  "last:3": 0,
-                  "third:3": 0,
-                  "second:3": 0
+                "forge:10": {
+                  "work:3": 0,
+                  "steps:10": {
+                    "last:3": 0,
+                    "third:3": 0,
+                    "second:3": 0
+                  }
                 }
               }
             },
@@ -2023,7 +2206,7 @@
     "38:10": {
       "questID:3": 38,
       "preRequisites:11": [
-        33
+        39
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2037,7 +2220,7 @@
           "icon:10": {
             "id:8": "immersiveengineering:metal_decoration0",
             "Count:3": 1,
-            "Damage:2": 4,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2056,7 +2239,8 @@
     "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
-        41
+        41,
+        57
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2087,10 +2271,44 @@
       "rewards:9": {}
     },
     "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiverailroading:item_rail",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "41:10": {
       "questID:3": 41,
       "preRequisites:11": [
-        53,
-        63
+        58,
+        52
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2120,7 +2338,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "41:10": {
+    "42:10": {
       "questID:3": 42,
       "preRequisites:11": [
         38
@@ -2153,10 +2371,10 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "42:10": {
+    "43:10": {
       "questID:3": 43,
       "preRequisites:11": [
-        55
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2168,9 +2386,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "tfctech:induction_crucible",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 6,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2179,17 +2397,17 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Bottling",
           "desc:8": "No Description"
         }
       },
       "tasks:9": {},
       "rewards:9": {}
     },
-    "43:10": {
+    "44:10": {
       "questID:3": 44,
       "preRequisites:11": [
-        38
+        52
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2219,7 +2437,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "44:10": {
+    "45:10": {
       "questID:3": 45,
       "preRequisites:11": [
         38
@@ -2252,7 +2470,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "45:10": {
+    "46:10": {
       "questID:3": 46,
       "preRequisites:11": [
         48
@@ -2285,7 +2503,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "46:10": {
+    "47:10": {
       "questID:3": 47,
       "preRequisites:11": [
         48
@@ -2318,7 +2536,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "47:10": {
+    "48:10": {
       "questID:3": 48,
       "preRequisites:11": [
         30
@@ -2344,6 +2562,60 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
+          "name:8": "New Gear",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalmechanics:gearbox_frame",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "49:10": {
+      "questID:3": 49,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:blueprint",
+            "Count:3": 1,
+            "tag:10": {
+              "blueprint:8": "components"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
@@ -2351,7 +2623,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "48:10": {
+    "50:10": {
       "questID:3": 50,
       "preRequisites:11": [
         55
@@ -2384,9 +2656,11 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "49:10": {
+    "51:10": {
       "questID:3": 51,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        30
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2408,15 +2682,39 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Crushing tub",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustic:crushing_tub",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustichromia:press",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "50:10": {
-      "questID:3": 53,
+    "52:10": {
+      "questID:3": 52,
       "preRequisites:11": [
         54
       ],
@@ -2430,8 +2728,47 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:glass",
+            "id:8": "mekanism:basicblock",
             "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "53:10": {
+      "questID:3": 53,
+      "preRequisites:11": [
+        49
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiverailroading:item_augment",
+            "Count:3": 1,
+            "tag:10": {
+              "augment:3": 3,
+              "display:10": {
+                "Name:8": "§rItem Loader"
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2448,7 +2785,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "51:10": {
+    "54:10": {
       "questID:3": 54,
       "preRequisites:11": [
         33
@@ -2474,18 +2811,42 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Smeltery for glass",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfctech:smeltery_cauldron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tfctech:smeltery_firebox",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "52:10": {
+    "55:10": {
       "questID:3": 55,
       "preRequisites:11": [
-        44,
-        39
+        39,
+        44
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2515,7 +2876,91 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "53:10": {
+    "56:10": {
+      "questID:3": 56,
+      "preRequisites:11": [
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:mold",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mold",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mysticalmechanics:gear_iron",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ironic Gear",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalmechanics:gear_iron",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
         33
@@ -2541,17 +2986,56 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Wa! Mill!",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tfctech:wire_draw_bench",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "Parent:10": {
+                  "heat:5": 0.0,
+                  "ticks:4": -1,
+                  "forge:10": {
+                    "work:3": 0,
+                    "steps:10": {
+                      "last:3": -1,
+                      "third:3": -1,
+                      "second:3": -1
+                    }
+                  }
+                }
+              },
+              "id:8": "tfctech:metal/copper_wire",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "54:10": {
+    "59:10": {
       "questID:3": 59,
       "preRequisites:11": [
-        42
+        42,
+        45
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2581,7 +3065,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "55:10": {
+    "60:10": {
       "questID:3": 60,
       "preRequisites:11": [],
       "properties:10": {
@@ -2612,10 +3096,10 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "56:10": {
-      "questID:3": 62,
+    "61:10": {
+      "questID:3": 61,
       "preRequisites:11": [
-        39
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2627,40 +3111,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersivetech:stone_multiblock",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Advanced Coke",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "57:10": {
-      "questID:3": 63,
-      "preRequisites:11": [
-        58
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "immersiveengineering:wirecoil",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2678,7 +3129,40 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "58:10": {
+    "62:10": {
+      "questID:3": 62,
+      "preRequisites:11": [
+        55
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersivetech:metal_device",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Advanced Coke",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "63:10": {
       "questID:3": 65,
       "preRequisites:11": [],
       "properties:10": {
@@ -2709,7 +3193,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "59:10": {
+    "64:10": {
       "questID:3": 66,
       "preRequisites:11": [],
       "properties:10": {
@@ -2740,7 +3224,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "60:10": {
+    "65:10": {
       "questID:3": 67,
       "preRequisites:11": [],
       "properties:10": {
@@ -2771,7 +3255,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "61:10": {
+    "66:10": {
       "questID:3": 68,
       "preRequisites:11": [],
       "properties:10": {
@@ -2802,7 +3286,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "62:10": {
+    "67:10": {
       "questID:3": 69,
       "preRequisites:11": [],
       "properties:10": {
@@ -2833,7 +3317,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "63:10": {
+    "68:10": {
       "questID:3": 70,
       "preRequisites:11": [],
       "properties:10": {
@@ -2864,40 +3348,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "64:10": {
-      "questID:3": 71,
-      "preRequisites:11": [
-        41
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "rustichromia:assembler2",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "65:10": {
+    "69:10": {
       "questID:3": 75,
       "preRequisites:11": [
         55
@@ -2933,10 +3384,10 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "66:10": {
+    "70:10": {
       "questID:3": 76,
       "preRequisites:11": [
-        55
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3196,35 +3647,35 @@
         },
         "1:10": {
           "sizeX:3": 48,
-          "x:3": -180,
+          "x:3": -156,
           "y:3": 12,
           "id:3": 26,
           "sizeY:3": 48
         },
         "2:10": {
           "sizeX:3": 48,
-          "x:3": -60,
+          "x:3": -48,
           "y:3": 12,
           "id:3": 29,
           "sizeY:3": 48
         },
         "3:10": {
           "sizeX:3": 48,
-          "x:3": -180,
+          "x:3": -156,
           "y:3": 96,
           "id:3": 30,
           "sizeY:3": 48
         },
         "4:10": {
           "sizeX:3": 48,
-          "x:3": 48,
+          "x:3": 60,
           "y:3": 12,
           "id:3": 33,
           "sizeY:3": 48
         },
         "5:10": {
           "sizeX:3": 48,
-          "x:3": 360,
+          "x:3": 276,
           "y:3": 12,
           "id:3": 34,
           "sizeY:3": 48
@@ -3238,168 +3689,196 @@
         },
         "7:10": {
           "sizeX:3": 48,
-          "x:3": 360,
-          "y:3": 96,
+          "x:3": 384,
+          "y:3": 12,
           "id:3": 36,
           "sizeY:3": 48
         },
         "8:10": {
           "sizeX:3": 72,
-          "x:3": 456,
+          "x:3": 480,
           "y:3": 0,
           "id:3": 37,
           "sizeY:3": 72
         },
         "9:10": {
           "sizeX:3": 48,
-          "x:3": 156,
-          "y:3": 96,
+          "x:3": 276,
+          "y:3": 180,
           "id:3": 38,
           "sizeY:3": 48
         },
         "10:10": {
           "sizeX:3": 48,
-          "x:3": 48,
-          "y:3": 264,
+          "x:3": 168,
+          "y:3": 180,
           "id:3": 39,
           "sizeY:3": 48
         },
         "11:10": {
           "sizeX:3": 48,
-          "x:3": -60,
-          "y:3": 264,
-          "id:3": 41,
+          "x:3": -48,
+          "y:3": 348,
+          "id:3": 40,
           "sizeY:3": 48
         },
         "12:10": {
           "sizeX:3": 48,
-          "x:3": 264,
+          "x:3": 60,
           "y:3": 180,
-          "id:3": 42,
+          "id:3": 41,
           "sizeY:3": 48
         },
         "13:10": {
           "sizeX:3": 48,
-          "x:3": 264,
-          "y:3": 348,
-          "id:3": 43,
+          "x:3": 384,
+          "y:3": 180,
+          "id:3": 42,
           "sizeY:3": 48
         },
         "14:10": {
           "sizeX:3": 48,
-          "x:3": 156,
-          "y:3": 180,
-          "id:3": 44,
+          "x:3": 276,
+          "y:3": 264,
+          "id:3": 43,
           "sizeY:3": 48
         },
         "15:10": {
           "sizeX:3": 48,
-          "x:3": 264,
-          "y:3": 96,
-          "id:3": 45,
+          "x:3": 60,
+          "y:3": 264,
+          "id:3": 44,
           "sizeY:3": 48
         },
         "16:10": {
           "sizeX:3": 48,
-          "x:3": -180,
+          "x:3": 384,
+          "y:3": 96,
+          "id:3": 45,
+          "sizeY:3": 48
+        },
+        "17:10": {
+          "sizeX:3": 48,
+          "x:3": -156,
           "y:3": 264,
           "id:3": 46,
           "sizeY:3": 48
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 48,
           "x:3": -276,
           "y:3": 264,
           "id:3": 47,
           "sizeY:3": 48
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 48,
-          "x:3": -180,
+          "x:3": -156,
           "y:3": 180,
           "id:3": 48,
           "sizeY:3": 48
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 48,
-          "x:3": 156,
+          "x:3": -156,
+          "y:3": 348,
+          "id:3": 49,
+          "sizeY:3": 48
+        },
+        "21:10": {
+          "sizeX:3": 48,
+          "x:3": 168,
           "y:3": 348,
           "id:3": 50,
           "sizeY:3": 48
         },
-        "20:10": {
+        "22:10": {
           "sizeX:3": 48,
           "x:3": -276,
           "y:3": 180,
           "id:3": 51,
           "sizeY:3": 48
         },
-        "21:10": {
-          "sizeX:3": 48,
-          "x:3": -60,
-          "y:3": 180,
-          "id:3": 53,
-          "sizeY:3": 48
-        },
-        "22:10": {
-          "sizeX:3": 48,
-          "x:3": -60,
-          "y:3": 96,
-          "id:3": 54,
-          "sizeY:3": 48
-        },
         "23:10": {
           "sizeX:3": 48,
-          "x:3": 156,
-          "y:3": 264,
-          "id:3": 55,
+          "x:3": -48,
+          "y:3": 180,
+          "id:3": 52,
           "sizeY:3": 48
         },
         "24:10": {
           "sizeX:3": 48,
-          "x:3": 48,
-          "y:3": 96,
-          "id:3": 58,
+          "x:3": -276,
+          "y:3": 348,
+          "id:3": 53,
           "sizeY:3": 48
         },
         "25:10": {
-          "sizeX:3": 72,
-          "x:3": 456,
-          "y:3": 168,
-          "id:3": 59,
-          "sizeY:3": 72
+          "sizeX:3": 48,
+          "x:3": -48,
+          "y:3": 96,
+          "id:3": 54,
+          "sizeY:3": 48
         },
         "26:10": {
           "sizeX:3": 48,
-          "x:3": 48,
-          "y:3": 348,
-          "id:3": 62,
+          "x:3": 168,
+          "y:3": 264,
+          "id:3": 55,
           "sizeY:3": 48
         },
         "27:10": {
           "sizeX:3": 48,
-          "x:3": 48,
-          "y:3": 180,
-          "id:3": 63,
+          "x:3": 384,
+          "y:3": 264,
+          "id:3": 56,
           "sizeY:3": 48
         },
         "28:10": {
           "sizeX:3": 48,
-          "x:3": -60,
-          "y:3": 348,
-          "id:3": 71,
+          "x:3": 168,
+          "y:3": 96,
+          "id:3": 57,
           "sizeY:3": 48
         },
         "29:10": {
           "sizeX:3": 48,
-          "x:3": 360,
-          "y:3": 264,
-          "id:3": 75,
+          "x:3": 60,
+          "y:3": 96,
+          "id:3": 58,
           "sizeY:3": 48
         },
         "30:10": {
           "sizeX:3": 72,
-          "x:3": 456,
+          "x:3": 480,
+          "y:3": 168,
+          "id:3": 59,
+          "sizeY:3": 72
+        },
+        "31:10": {
+          "sizeX:3": 48,
+          "x:3": 276,
+          "y:3": 96,
+          "id:3": 61,
+          "sizeY:3": 48
+        },
+        "32:10": {
+          "sizeX:3": 48,
+          "x:3": 60,
+          "y:3": 348,
+          "id:3": 62,
+          "sizeY:3": 48
+        },
+        "33:10": {
+          "sizeX:3": 48,
+          "x:3": 276,
+          "y:3": 348,
+          "id:3": 75,
+          "sizeY:3": 48
+        },
+        "34:10": {
+          "sizeX:3": 72,
+          "x:3": 480,
           "y:3": 336,
           "id:3": 76,
           "sizeY:3": 72
