@@ -7625,7 +7625,6 @@ appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Sycamore Bookshelf
 appliedenergistics2:facade:0, Cable Facade - White Cedar Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Willow Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Hevea Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Acacia Workbench
 appliedenergistics2:facade:0, Cable Facade - Ash Workbench
 appliedenergistics2:facade:0, Cable Facade - Aspen Workbench
@@ -7645,7 +7644,6 @@ appliedenergistics2:facade:0, Cable Facade - Spruce Workbench
 appliedenergistics2:facade:0, Cable Facade - Sycamore Workbench
 appliedenergistics2:facade:0, Cable Facade - White Cedar Workbench
 appliedenergistics2:facade:0, Cable Facade - Willow Workbench
-appliedenergistics2:facade:0, Cable Facade - Hevea Workbench
 appliedenergistics2:facade:0, Cable Facade - Acacia Planks
 appliedenergistics2:facade:0, Cable Facade - Acacia Log
 appliedenergistics2:facade:0, Cable Facade - Acacia Leaves
@@ -7703,9 +7701,6 @@ appliedenergistics2:facade:0, Cable Facade - White Cedar Leaves
 appliedenergistics2:facade:0, Cable Facade - Willow Planks
 appliedenergistics2:facade:0, Cable Facade - Willow Log
 appliedenergistics2:facade:0, Cable Facade - Willow Leaves
-appliedenergistics2:facade:0, Cable Facade - Hevea Planks
-appliedenergistics2:facade:0, Cable Facade - Hevea Log
-appliedenergistics2:facade:0, Cable Facade - Hevea Leaves
 appliedenergistics2:facade:0, Cable Facade - Frame Block
 appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
 appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
@@ -7827,9 +7822,9 @@ appliedenergistics2:facade:0, Cable Facade - Birch Trim
 appliedenergistics2:facade:0, Cable Facade - Jungle Trim
 appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
-appliedenergistics2:facade:0, Cable Facade - Molten Steel [WIP]
 appliedenergistics2:facade:0, Cable Facade - Solid Steel [WIP]
-appliedenergistics2:facade:0, Cable Facade - Cotton Seeds
+appliedenergistics2:facade:0, Cable Facade - Block of Thatch
+appliedenergistics2:facade:0, Cable Facade - Hay Feed
 appliedenergistics2:facade:0, Cable Facade - Coal Gravel Ore
 appliedenergistics2:facade:0, Cable Facade - Iron Gravel Ore
 appliedenergistics2:facade:0, Cable Facade - Lapis Gravel Ore
@@ -8144,8 +8139,8 @@ tfc:metal/bucket/blue_steel:0, Blue Steel Bucket
 tfc:metal/bucket/blue_steel:0, Lava§r Bucket§r
 tfc:metal/bucket/red_steel:0, Red Steel Bucket
 tfc:metal/bucket/red_steel:0, Water§r Bucket§r
-tfc:metal/bucket/red_steel:0, Hot Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Salt Water§r Bucket§r
+tfc:metal/bucket/red_steel:0, Hot Water§r Bucket§r
 tfc:metal/bucket/red_steel:0, Fresh Water§r Bucket§r
 tfc:rock/granite, Granite Rock
 tfc:rock/diorite, Diorite Rock
@@ -9886,7 +9881,6 @@ tfc:wood/bookshelf/spruce, Spruce Bookshelf
 tfc:wood/bookshelf/sycamore, Sycamore Bookshelf
 tfc:wood/bookshelf/white_cedar, White Cedar Bookshelf
 tfc:wood/bookshelf/willow, Willow Bookshelf
-tfc:wood/bookshelf/hevea, Hevea Bookshelf
 tfc:wood/workbench/acacia, Acacia Workbench
 tfc:wood/workbench/ash, Ash Workbench
 tfc:wood/workbench/aspen, Aspen Workbench
@@ -9906,7 +9900,6 @@ tfc:wood/workbench/spruce, Spruce Workbench
 tfc:wood/workbench/sycamore, Sycamore Workbench
 tfc:wood/workbench/white_cedar, White Cedar Workbench
 tfc:wood/workbench/willow, Willow Workbench
-tfc:wood/workbench/hevea, Hevea Workbench
 tfc:wood/planks/acacia, Acacia Planks
 tfc:wood/planks/ash, Ash Planks
 tfc:wood/planks/aspen, Aspen Planks
@@ -9926,7 +9919,6 @@ tfc:wood/planks/spruce, Spruce Planks
 tfc:wood/planks/sycamore, Sycamore Planks
 tfc:wood/planks/white_cedar, White Cedar Planks
 tfc:wood/planks/willow, Willow Planks
-tfc:wood/planks/hevea, Hevea Planks
 tfc:wood/leaves/acacia, Acacia Leaves
 tfc:wood/leaves/ash, Ash Leaves
 tfc:wood/leaves/aspen, Aspen Leaves
@@ -9946,7 +9938,6 @@ tfc:wood/leaves/spruce, Spruce Leaves
 tfc:wood/leaves/sycamore, Sycamore Leaves
 tfc:wood/leaves/white_cedar, White Cedar Leaves
 tfc:wood/leaves/willow, Willow Leaves
-tfc:wood/leaves/hevea, Hevea Leaves
 tfc:wood/chest/acacia, Acacia Chest
 tfc:wood/chest_trap/acacia, Trapped Acacia Chest
 tfc:wood/chest/ash, Ash Chest
@@ -9985,8 +9976,6 @@ tfc:wood/chest/white_cedar, White Cedar Chest
 tfc:wood/chest_trap/white_cedar, Trapped White Cedar Chest
 tfc:wood/chest/willow, Willow Chest
 tfc:wood/chest_trap/willow, Trapped Willow Chest
-tfc:wood/chest/hevea, Hevea Chest
-tfc:wood/chest_trap/hevea, Trapped Hevea Chest
 tfc:wood/tool_rack/acacia, Acacia Tool Rack
 tfc:wood/tool_rack/ash, Ash Tool Rack
 tfc:wood/tool_rack/aspen, Aspen Tool Rack
@@ -10006,7 +9995,6 @@ tfc:wood/tool_rack/spruce, Spruce Tool Rack
 tfc:wood/tool_rack/sycamore, Sycamore Tool Rack
 tfc:wood/tool_rack/white_cedar, White Cedar Tool Rack
 tfc:wood/tool_rack/willow, Willow Tool Rack
-tfc:wood/tool_rack/hevea, Hevea Tool Rack
 tfc:wood/loom/acacia, Acacia Loom
 tfc:wood/loom/ash, Ash Loom
 tfc:wood/loom/aspen, Aspen Loom
@@ -10026,7 +10014,6 @@ tfc:wood/loom/spruce, Spruce Loom
 tfc:wood/loom/sycamore, Sycamore Loom
 tfc:wood/loom/white_cedar, White Cedar Loom
 tfc:wood/loom/willow, Willow Loom
-tfc:wood/loom/hevea, Hevea Loom
 tfc:wood/support/acacia, Acacia Support Beam
 tfc:wood/support/ash, Ash Support Beam
 tfc:wood/support/aspen, Aspen Support Beam
@@ -10046,7 +10033,6 @@ tfc:wood/support/spruce, Spruce Support Beam
 tfc:wood/support/sycamore, Sycamore Support Beam
 tfc:wood/support/white_cedar, White Cedar Support Beam
 tfc:wood/support/willow, Willow Support Beam
-tfc:wood/support/hevea, Hevea Support beam
 tfc:stairs/smooth/granite, Smooth Granite Stairs
 tfc:stairs/smooth/diorite, Smooth Diorite Stairs
 tfc:stairs/smooth/gabbro, Smooth Gabbro Stairs
@@ -10129,7 +10115,6 @@ tfc:stairs/wood/spruce, Spruce Stairs
 tfc:stairs/wood/sycamore, Sycamore Stairs
 tfc:stairs/wood/white_cedar, White Cedar Stairs
 tfc:stairs/wood/willow, Willow Stairs
-tfc:stairs/wood/hevea, Hevea Stairs
 tfc:plants/allium, Allium
 tfc:plants/athyrium_fern, Athyrium Fern
 tfc:plants/barrel_cactus, Barrel Cactus
@@ -10172,7 +10157,6 @@ tfc:plants/snapdragon_white, White Snapdragon
 tfc:plants/snapdragon_yellow, Yellow Snapdragon
 tfc:plants/spanish_moss, Spanish Moss
 tfc:plants/strelitzia, Bird of Paradise Flower
-tfc:plants/sugar_cane, Sugar Cane
 tfc:plants/sword_fern, Sword Fern
 tfc:plants/toquilla_palm, Toquilla Palm
 tfc:plants/tree_fern, Tree Fern
@@ -10215,7 +10199,6 @@ tfc:wood/fence/spruce, Spruce Fence
 tfc:wood/fence/sycamore, Sycamore Fence
 tfc:wood/fence/white_cedar, White Cedar Fence
 tfc:wood/fence/willow, Willow Fence
-tfc:wood/fence/hevea, Hevea Fence
 tfc:wood/button/acacia, Acacia Button
 tfc:wood/button/ash, Ash Button
 tfc:wood/button/aspen, Aspen Button
@@ -10235,7 +10218,6 @@ tfc:wood/button/spruce, Spruce Button
 tfc:wood/button/sycamore, Sycamore Button
 tfc:wood/button/white_cedar, White Cedar Button
 tfc:wood/button/willow, Willow Button
-tfc:wood/button/hevea, Hevea Button
 tfc:wood/fence_gate/acacia, Acacia Fence Gate
 tfc:wood/fence_gate/ash, Ash Fence Gate
 tfc:wood/fence_gate/aspen, Aspen Fence Gate
@@ -10255,7 +10237,6 @@ tfc:wood/fence_gate/spruce, Spruce Fence Gate
 tfc:wood/fence_gate/sycamore, Sycamore Fence Gate
 tfc:wood/fence_gate/white_cedar, White Cedar Fence Gate
 tfc:wood/fence_gate/willow, Willow Fence Gate
-tfc:wood/fence_gate/hevea, Hevea Fence Gate
 tfc:wood/sapling/acacia, Acacia Sapling
 tfc:wood/sapling/ash, Ash Sapling
 tfc:wood/sapling/aspen, Aspen Sapling
@@ -10275,7 +10256,6 @@ tfc:wood/sapling/spruce, Spruce Sapling
 tfc:wood/sapling/sycamore, Sycamore Sapling
 tfc:wood/sapling/white_cedar, White Cedar Sapling
 tfc:wood/sapling/willow, Willow Sapling
-tfc:wood/sapling/hevea, Hevea Sapling
 tfc:wood/trapdoor/acacia, Acacia Trapdoor
 tfc:wood/trapdoor/ash, Ash Trapdoor
 tfc:wood/trapdoor/aspen, Aspen Trapdoor
@@ -10295,7 +10275,6 @@ tfc:wood/trapdoor/spruce, Spruce Trapdoor
 tfc:wood/trapdoor/sycamore, Sycamore Trapdoor
 tfc:wood/trapdoor/white_cedar, White Cedar Trapdoor
 tfc:wood/trapdoor/willow, Willow Trapdoor
-tfc:wood/trapdoor/hevea, Hevea Trapdoor
 tfc:stone/button/granite, Granite Button
 tfc:stone/button/diorite, Diorite Button
 tfc:stone/button/gabbro, Gabbro Button
@@ -10436,7 +10415,6 @@ tfc:wood/barrel/spruce, Spruce Barrel
 tfc:wood/barrel/sycamore, Sycamore Barrel
 tfc:wood/barrel/white_cedar, White Cedar Barrel
 tfc:wood/barrel/willow, Willow Barrel
-tfc:wood/barrel/hevea, Hevea Barrel
 tfc:wood/log/acacia, Acacia Log
 tfc:wood/log/ash, Ash Log
 tfc:wood/log/aspen, Aspen Log
@@ -10456,7 +10434,6 @@ tfc:wood/log/spruce, Spruce Log
 tfc:wood/log/sycamore, Sycamore Log
 tfc:wood/log/white_cedar, White Cedar Log
 tfc:wood/log/willow, Willow Log
-tfc:wood/log/hevea, Hevea Log
 tfc:wood/door/acacia, Acacia Door
 tfc:wood/door/ash, Ash Door
 tfc:wood/door/aspen, Aspen Door
@@ -10476,7 +10453,6 @@ tfc:wood/door/spruce, Spruce Door
 tfc:wood/door/sycamore, Sycamore Door
 tfc:wood/door/white_cedar, White Cedar Door
 tfc:wood/door/willow, Willow Door
-tfc:wood/door/hevea, Hevea Door
 tfc:slab/smooth/granite:0, Smooth Granite Slab
 tfc:slab/smooth/diorite:0, Smooth Diorite Slab
 tfc:slab/smooth/gabbro:0, Smooth Gabbro Slab
@@ -10559,7 +10535,6 @@ tfc:slab/wood/spruce:0, Spruce Slab
 tfc:slab/wood/sycamore:0, Sycamore Slab
 tfc:slab/wood/white_cedar:0, White Cedar Slab
 tfc:slab/wood/willow:0, Willow Slab
-tfc:slab/wood/hevea:0, Hevea Slab
 tfc:wood/lumber/acacia, Acacia Lumber
 tfc:wood/boat/acacia, Acacia Boat
 tfc:wood/lumber/ash, Ash Lumber
@@ -10598,8 +10573,6 @@ tfc:wood/lumber/white_cedar, White Cedar Lumber
 tfc:wood/boat/white_cedar, White Cedar Boat
 tfc:wood/lumber/willow, Willow Lumber
 tfc:wood/boat/willow, Willow Boat
-tfc:wood/lumber/hevea, Hevea Lumber
-tfc:wood/boat/hevea, Hevea Boat
 tfc:stone/axe/igneous_intrusive, Rock Axe
 tfc:stone/axe_head/igneous_intrusive, Rock Axe Head
 tfc:stone/shovel/igneous_intrusive, Rock Shovel
@@ -10723,12 +10696,12 @@ tfc:ceramics/unfired/vessel_glazed:3, Small Unfired Brown Vessel
 tfc:ceramics/unfired/vessel_glazed:2, Small Unfired Green Vessel
 tfc:ceramics/unfired/vessel_glazed:1, Small Unfired Red Vessel
 tfc:ceramics/unfired/vessel_glazed:0, Small Unfired Black Vessel
+tfc:ceramics/fired/pot, Ceramic Pot
+tfc:ceramics/unfired/pot, Unfired Pot
+tfc:ceramics/fired/bowl, Ceramic Bowl
+tfc:ceramics/unfired/bowl, Unfired Bowl
 tfc:ceramics/fired/spindle, Spindle Head
 tfc:ceramics/unfired/spindle, Unfired Spindle Head
-tfc:ceramics/fired/pot, Pot
-tfc:ceramics/unfired/pot, Unfired Pot
-tfc:ceramics/fired/bowl, Bowl
-tfc:ceramics/unfired/bowl, Unfired Bowl
 tfc:ceramics/fired/fire_brick, Fire Brick
 tfc:ceramics/unfired/fire_brick, Unfired Fire Brick
 tfc:ceramics/fire_clay, Fire Clay
@@ -10764,8 +10737,6 @@ tfc:crop/seeds/tomato, Tomato Seeds
 tfc:crop/seeds/red_bell_pepper, Red Bell Pepper Seeds
 tfc:crop/seeds/yellow_bell_pepper, Yellow Bell Pepper Seeds
 tfc:crop/seeds/jute, Jute Seeds
-tfc:crop/seeds/pumpkin, Pumpkin Seeds
-tfc:crop/seeds/melon, Melon Seeds
 tfc:crop/product/jute, Jute
 tfc:crop/product/jute_fiber, Fiber
 tfc:crop/product/burlap_cloth, Burlap Cloth
@@ -10859,6 +10830,22 @@ tfc:food/cooked_pheasant, Cooked Pheasant
 tfc:food/cooked_venison, Cooked Venison
 tfc:food/cooked_wolf, Cooked Wolf
 tfc:food/cooked_rabbit, Cooked Rabbit Meat
+tfc:food/barley_bread_sandwich, Barley Bread Sandwich
+tfc:food/cornbread_sandwich, Cornbread Sandwich
+tfc:food/oat_bread_sandwich, Oat Bread Sandwich
+tfc:food/rice_bread_sandwich, Rice Bread Sandwich
+tfc:food/rye_bread_sandwich, Rye Bread Sandwich
+tfc:food/wheat_bread_sandwich, Wheat Bread Sandwich
+tfc:food/soup_grain, Wholesome Soup
+tfc:food/soup_fruit, Tasty Soup
+tfc:food/soup_vegetable, Filling Soup
+tfc:food/soup_meat, Hearty Soup
+tfc:food/soup_dairy, Creamy Soup
+tfc:food/salad_grain, Cruchy Salad
+tfc:food/salad_fruit, Sweet Salad
+tfc:food/salad_vegetable, Healthy Salad
+tfc:food/salad_meat, Flavorful Salad
+tfc:food/salad_dairy, Disgusting Salad
 tfc:firestarter, Firestarter
 tfc:straw, Straw
 tfc:handstone, Quern Handstone
@@ -10889,6 +10876,7 @@ tfc:goldpan:1, Goldpan with Sand
 tfc:goldpan:2, Goldpan with Gravel
 tfc:goldpan:3, Goldpan with Clay
 tfc:goldpan:4, Goldpan with Dirt
+tfc:wrought_iron_grill, Wrought Iron Grill
 dynamictreestfc:branch/acacia, Acacia Branch
 dynamictreestfc:seed/acacia, Acacia Seed
 dynamictreestfc:branch/ash, Ash Branch
@@ -10929,8 +10917,6 @@ dynamictreestfc:branch/white_cedar, White Cedar Branch
 dynamictreestfc:seed/white_cedar, White Cedar Seed
 dynamictreestfc:branch/willow, Willow Branch
 dynamictreestfc:seed/willow, Willow Seed
-dynamictreestfc:branch/hevea, Hevea Branch
-dynamictreestfc:seed/hevea, Hevea Seed
 funkylocomotion:booster, Frame Booster
 funkylocomotion:frame_projector, Frame Projector
 funkylocomotion:pusher:0, Frame Pusher
@@ -11506,6 +11492,27 @@ questbook:itemquestbook, Quest Book
 simplewoodenpipes:pipe, Wooden Pipe
 simplewoodenpipes:pump, Pump
 bq_standard:loot_chest, Loot Chest
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -11556,255 +11563,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
-tfctech:pot_ash, Pot with Ash Powder
-tfctech:pot_potash, Pot with Potash
-tfctech:powder/potash, Potash
-tfctech:powder/lime, Lime
-tfctech:powder/wood, Sawdust
-tfctech:powder/ash, Ash
-tfctech:latex/vulcanizing_agents, Vulcanizing Agents
-tfctech:latex/rubber_mix, Rubber Mix
-tfctech:latex/rubber, Rubber
-tfctech:wiredraw/leather_belt, Leather Belt
-tfctech:wiredraw/winch, Winch
-tfctech:ceramics/unfired/rackwheel_piece, Unfired Rackwheel Piece Mold
-tfctech:ceramics/unfired/glass_block, Unfired Glass Block Mold
-tfctech:ceramics/unfired/glass_pane, Unfired Glass Pane Mold
-tfctech:ceramics/mold/glass_block, Glass Block Mold
-tfctech:ceramics/mold/glass_pane, Glass Pane Mold
-tfctech:ceramics/mold/rackwheel_piece, Rackwheel Piece Mold
-tfctech:metal/iron_groove, item.tfctech.metal.iron_groove.name
-tfctech:metal/iron_bowl_mount, item.tfctech.metal.iron_bowl_mount.name
-tfctech:metal/iron_draw_plate, item.tfctech.metal.iron_draw_plate.name
-tfctech:metal/steel_draw_plate, item.tfctech.metal.steel_draw_plate.name
-tfctech:metal/black_steel_draw_plate, item.tfctech.metal.black_steel_draw_plate.name
-tfctech:metal/iron_tongs, item.tfctech.metal.iron_tongs.name
-tfctech:metal/copper_inductor, item.tfctech.metal.copper_inductor.name
-tfctech:metal/tin_sleeve, item.tfctech.metal.tin_sleeve.name
-tfctech:metal/brass_sleeve, item.tfctech.metal.brass_sleeve.name
-tfctech:metal/steel_sleeve, item.tfctech.metal.steel_sleeve.name
-tfctech:metal/bismuth_strip, item.tfctech.metal.bismuth_strip.name
-tfctech:metal/bismuth_rackwheel_piece, item.tfctech.metal.bismuth_rackwheel_piece.name
-tfctech:metal/bismuth_rackwheel, item.tfctech.metal.bismuth_rackwheel.name
-tfctech:metal/bismuth_gear, item.tfctech.metal.bismuth_gear.name
-tfctech:metal/bismuth_wire, item.tfctech.metal.bismuth_wire.name
-tfctech:metal/bismuth_long_rod, item.tfctech.metal.bismuth_long_rod.name
-tfctech:metal/bismuth_rod, item.tfctech.metal.bismuth_rod.name
-tfctech:metal/bismuth_bolt, item.tfctech.metal.bismuth_bolt.name
-tfctech:metal/bismuth_screw, item.tfctech.metal.bismuth_screw.name
-tfctech:metal/bismuth_bronze_strip, item.tfctech.metal.bismuth_bronze_strip.name
-tfctech:metal/bismuth_bronze_rackwheel_piece, item.tfctech.metal.bismuth_bronze_rackwheel_piece.name
-tfctech:metal/bismuth_bronze_rackwheel, item.tfctech.metal.bismuth_bronze_rackwheel.name
-tfctech:metal/bismuth_bronze_gear, item.tfctech.metal.bismuth_bronze_gear.name
-tfctech:metal/bismuth_bronze_wire, item.tfctech.metal.bismuth_bronze_wire.name
-tfctech:metal/bismuth_bronze_long_rod, item.tfctech.metal.bismuth_bronze_long_rod.name
-tfctech:metal/bismuth_bronze_rod, item.tfctech.metal.bismuth_bronze_rod.name
-tfctech:metal/bismuth_bronze_bolt, item.tfctech.metal.bismuth_bronze_bolt.name
-tfctech:metal/bismuth_bronze_screw, item.tfctech.metal.bismuth_bronze_screw.name
-tfctech:metal/black_bronze_strip, item.tfctech.metal.black_bronze_strip.name
-tfctech:metal/black_bronze_rackwheel_piece, item.tfctech.metal.black_bronze_rackwheel_piece.name
-tfctech:metal/black_bronze_rackwheel, item.tfctech.metal.black_bronze_rackwheel.name
-tfctech:metal/black_bronze_gear, item.tfctech.metal.black_bronze_gear.name
-tfctech:metal/black_bronze_wire, item.tfctech.metal.black_bronze_wire.name
-tfctech:metal/black_bronze_long_rod, item.tfctech.metal.black_bronze_long_rod.name
-tfctech:metal/black_bronze_rod, item.tfctech.metal.black_bronze_rod.name
-tfctech:metal/black_bronze_bolt, item.tfctech.metal.black_bronze_bolt.name
-tfctech:metal/black_bronze_screw, item.tfctech.metal.black_bronze_screw.name
-tfctech:metal/brass_strip, item.tfctech.metal.brass_strip.name
-tfctech:metal/brass_rackwheel_piece, item.tfctech.metal.brass_rackwheel_piece.name
-tfctech:metal/brass_rackwheel, item.tfctech.metal.brass_rackwheel.name
-tfctech:metal/brass_gear, item.tfctech.metal.brass_gear.name
-tfctech:metal/brass_wire, item.tfctech.metal.brass_wire.name
-tfctech:metal/brass_long_rod, item.tfctech.metal.brass_long_rod.name
-tfctech:metal/brass_rod, item.tfctech.metal.brass_rod.name
-tfctech:metal/brass_bolt, item.tfctech.metal.brass_bolt.name
-tfctech:metal/brass_screw, item.tfctech.metal.brass_screw.name
-tfctech:metal/bronze_strip, item.tfctech.metal.bronze_strip.name
-tfctech:metal/bronze_rackwheel_piece, item.tfctech.metal.bronze_rackwheel_piece.name
-tfctech:metal/bronze_rackwheel, item.tfctech.metal.bronze_rackwheel.name
-tfctech:metal/bronze_gear, item.tfctech.metal.bronze_gear.name
-tfctech:metal/bronze_wire, item.tfctech.metal.bronze_wire.name
-tfctech:metal/bronze_long_rod, item.tfctech.metal.bronze_long_rod.name
-tfctech:metal/bronze_rod, item.tfctech.metal.bronze_rod.name
-tfctech:metal/bronze_bolt, item.tfctech.metal.bronze_bolt.name
-tfctech:metal/bronze_screw, item.tfctech.metal.bronze_screw.name
-tfctech:metal/copper_strip, item.tfctech.metal.copper_strip.name
-tfctech:metal/copper_rackwheel_piece, item.tfctech.metal.copper_rackwheel_piece.name
-tfctech:metal/copper_rackwheel, item.tfctech.metal.copper_rackwheel.name
-tfctech:metal/copper_gear, item.tfctech.metal.copper_gear.name
-tfctech:metal/copper_wire, item.tfctech.metal.copper_wire.name
-tfctech:metal/copper_long_rod, item.tfctech.metal.copper_long_rod.name
-tfctech:metal/copper_rod, item.tfctech.metal.copper_rod.name
-tfctech:metal/copper_bolt, item.tfctech.metal.copper_bolt.name
-tfctech:metal/copper_screw, item.tfctech.metal.copper_screw.name
-tfctech:metal/gold_strip, item.tfctech.metal.gold_strip.name
-tfctech:metal/gold_rackwheel_piece, item.tfctech.metal.gold_rackwheel_piece.name
-tfctech:metal/gold_rackwheel, item.tfctech.metal.gold_rackwheel.name
-tfctech:metal/gold_gear, item.tfctech.metal.gold_gear.name
-tfctech:metal/gold_wire, item.tfctech.metal.gold_wire.name
-tfctech:metal/gold_long_rod, item.tfctech.metal.gold_long_rod.name
-tfctech:metal/gold_rod, item.tfctech.metal.gold_rod.name
-tfctech:metal/gold_bolt, item.tfctech.metal.gold_bolt.name
-tfctech:metal/gold_screw, item.tfctech.metal.gold_screw.name
-tfctech:metal/lead_strip, item.tfctech.metal.lead_strip.name
-tfctech:metal/lead_rackwheel_piece, item.tfctech.metal.lead_rackwheel_piece.name
-tfctech:metal/lead_rackwheel, item.tfctech.metal.lead_rackwheel.name
-tfctech:metal/lead_gear, item.tfctech.metal.lead_gear.name
-tfctech:metal/lead_wire, item.tfctech.metal.lead_wire.name
-tfctech:metal/lead_long_rod, item.tfctech.metal.lead_long_rod.name
-tfctech:metal/lead_rod, item.tfctech.metal.lead_rod.name
-tfctech:metal/lead_bolt, item.tfctech.metal.lead_bolt.name
-tfctech:metal/lead_screw, item.tfctech.metal.lead_screw.name
-tfctech:metal/nickel_strip, item.tfctech.metal.nickel_strip.name
-tfctech:metal/nickel_rackwheel_piece, item.tfctech.metal.nickel_rackwheel_piece.name
-tfctech:metal/nickel_rackwheel, item.tfctech.metal.nickel_rackwheel.name
-tfctech:metal/nickel_gear, item.tfctech.metal.nickel_gear.name
-tfctech:metal/nickel_wire, item.tfctech.metal.nickel_wire.name
-tfctech:metal/nickel_long_rod, item.tfctech.metal.nickel_long_rod.name
-tfctech:metal/nickel_rod, item.tfctech.metal.nickel_rod.name
-tfctech:metal/nickel_bolt, item.tfctech.metal.nickel_bolt.name
-tfctech:metal/nickel_screw, item.tfctech.metal.nickel_screw.name
-tfctech:metal/rose_gold_strip, item.tfctech.metal.rose_gold_strip.name
-tfctech:metal/rose_gold_rackwheel_piece, item.tfctech.metal.rose_gold_rackwheel_piece.name
-tfctech:metal/rose_gold_rackwheel, item.tfctech.metal.rose_gold_rackwheel.name
-tfctech:metal/rose_gold_gear, item.tfctech.metal.rose_gold_gear.name
-tfctech:metal/rose_gold_wire, item.tfctech.metal.rose_gold_wire.name
-tfctech:metal/rose_gold_long_rod, item.tfctech.metal.rose_gold_long_rod.name
-tfctech:metal/rose_gold_rod, item.tfctech.metal.rose_gold_rod.name
-tfctech:metal/rose_gold_bolt, item.tfctech.metal.rose_gold_bolt.name
-tfctech:metal/rose_gold_screw, item.tfctech.metal.rose_gold_screw.name
-tfctech:metal/silver_strip, item.tfctech.metal.silver_strip.name
-tfctech:metal/silver_rackwheel_piece, item.tfctech.metal.silver_rackwheel_piece.name
-tfctech:metal/silver_rackwheel, item.tfctech.metal.silver_rackwheel.name
-tfctech:metal/silver_gear, item.tfctech.metal.silver_gear.name
-tfctech:metal/silver_wire, item.tfctech.metal.silver_wire.name
-tfctech:metal/silver_long_rod, item.tfctech.metal.silver_long_rod.name
-tfctech:metal/silver_rod, item.tfctech.metal.silver_rod.name
-tfctech:metal/silver_bolt, item.tfctech.metal.silver_bolt.name
-tfctech:metal/silver_screw, item.tfctech.metal.silver_screw.name
-tfctech:metal/tin_strip, item.tfctech.metal.tin_strip.name
-tfctech:metal/tin_rackwheel_piece, item.tfctech.metal.tin_rackwheel_piece.name
-tfctech:metal/tin_rackwheel, item.tfctech.metal.tin_rackwheel.name
-tfctech:metal/tin_gear, item.tfctech.metal.tin_gear.name
-tfctech:metal/tin_wire, item.tfctech.metal.tin_wire.name
-tfctech:metal/tin_long_rod, item.tfctech.metal.tin_long_rod.name
-tfctech:metal/tin_rod, item.tfctech.metal.tin_rod.name
-tfctech:metal/tin_bolt, item.tfctech.metal.tin_bolt.name
-tfctech:metal/tin_screw, item.tfctech.metal.tin_screw.name
-tfctech:metal/zinc_strip, item.tfctech.metal.zinc_strip.name
-tfctech:metal/zinc_rackwheel_piece, item.tfctech.metal.zinc_rackwheel_piece.name
-tfctech:metal/zinc_rackwheel, item.tfctech.metal.zinc_rackwheel.name
-tfctech:metal/zinc_gear, item.tfctech.metal.zinc_gear.name
-tfctech:metal/zinc_wire, item.tfctech.metal.zinc_wire.name
-tfctech:metal/zinc_long_rod, item.tfctech.metal.zinc_long_rod.name
-tfctech:metal/zinc_rod, item.tfctech.metal.zinc_rod.name
-tfctech:metal/zinc_bolt, item.tfctech.metal.zinc_bolt.name
-tfctech:metal/zinc_screw, item.tfctech.metal.zinc_screw.name
-tfctech:metal/sterling_silver_strip, item.tfctech.metal.sterling_silver_strip.name
-tfctech:metal/sterling_silver_rackwheel_piece, item.tfctech.metal.sterling_silver_rackwheel_piece.name
-tfctech:metal/sterling_silver_rackwheel, item.tfctech.metal.sterling_silver_rackwheel.name
-tfctech:metal/sterling_silver_gear, item.tfctech.metal.sterling_silver_gear.name
-tfctech:metal/sterling_silver_wire, item.tfctech.metal.sterling_silver_wire.name
-tfctech:metal/sterling_silver_long_rod, item.tfctech.metal.sterling_silver_long_rod.name
-tfctech:metal/sterling_silver_rod, item.tfctech.metal.sterling_silver_rod.name
-tfctech:metal/sterling_silver_bolt, item.tfctech.metal.sterling_silver_bolt.name
-tfctech:metal/sterling_silver_screw, item.tfctech.metal.sterling_silver_screw.name
-tfctech:metal/wrought_iron_strip, item.tfctech.metal.wrought_iron_strip.name
-tfctech:metal/wrought_iron_rackwheel_piece, item.tfctech.metal.wrought_iron_rackwheel_piece.name
-tfctech:metal/wrought_iron_rackwheel, item.tfctech.metal.wrought_iron_rackwheel.name
-tfctech:metal/wrought_iron_gear, item.tfctech.metal.wrought_iron_gear.name
-tfctech:metal/wrought_iron_wire, item.tfctech.metal.wrought_iron_wire.name
-tfctech:metal/wrought_iron_long_rod, item.tfctech.metal.wrought_iron_long_rod.name
-tfctech:metal/wrought_iron_rod, item.tfctech.metal.wrought_iron_rod.name
-tfctech:metal/wrought_iron_bolt, item.tfctech.metal.wrought_iron_bolt.name
-tfctech:metal/wrought_iron_screw, item.tfctech.metal.wrought_iron_screw.name
-tfctech:metal/wrought_iron_blowpipe, item.tfctech.metal.wrought_iron_blowpipe.name
-tfctech:metal/pig_iron_strip, item.tfctech.metal.pig_iron_strip.name
-tfctech:metal/pig_iron_rackwheel_piece, item.tfctech.metal.pig_iron_rackwheel_piece.name
-tfctech:metal/pig_iron_rackwheel, item.tfctech.metal.pig_iron_rackwheel.name
-tfctech:metal/pig_iron_gear, item.tfctech.metal.pig_iron_gear.name
-tfctech:metal/pig_iron_wire, item.tfctech.metal.pig_iron_wire.name
-tfctech:metal/pig_iron_long_rod, item.tfctech.metal.pig_iron_long_rod.name
-tfctech:metal/pig_iron_rod, item.tfctech.metal.pig_iron_rod.name
-tfctech:metal/pig_iron_bolt, item.tfctech.metal.pig_iron_bolt.name
-tfctech:metal/pig_iron_screw, item.tfctech.metal.pig_iron_screw.name
-tfctech:metal/steel_strip, item.tfctech.metal.steel_strip.name
-tfctech:metal/steel_rackwheel_piece, item.tfctech.metal.steel_rackwheel_piece.name
-tfctech:metal/steel_rackwheel, item.tfctech.metal.steel_rackwheel.name
-tfctech:metal/steel_gear, item.tfctech.metal.steel_gear.name
-tfctech:metal/steel_wire, item.tfctech.metal.steel_wire.name
-tfctech:metal/steel_long_rod, item.tfctech.metal.steel_long_rod.name
-tfctech:metal/steel_rod, item.tfctech.metal.steel_rod.name
-tfctech:metal/steel_bolt, item.tfctech.metal.steel_bolt.name
-tfctech:metal/steel_screw, item.tfctech.metal.steel_screw.name
-tfctech:metal/steel_blowpipe, item.tfctech.metal.steel_blowpipe.name
-tfctech:metal/platinum_strip, item.tfctech.metal.platinum_strip.name
-tfctech:metal/platinum_rackwheel_piece, item.tfctech.metal.platinum_rackwheel_piece.name
-tfctech:metal/platinum_rackwheel, item.tfctech.metal.platinum_rackwheel.name
-tfctech:metal/platinum_gear, item.tfctech.metal.platinum_gear.name
-tfctech:metal/platinum_wire, item.tfctech.metal.platinum_wire.name
-tfctech:metal/platinum_long_rod, item.tfctech.metal.platinum_long_rod.name
-tfctech:metal/platinum_rod, item.tfctech.metal.platinum_rod.name
-tfctech:metal/platinum_bolt, item.tfctech.metal.platinum_bolt.name
-tfctech:metal/platinum_screw, item.tfctech.metal.platinum_screw.name
-tfctech:metal/black_steel_strip, item.tfctech.metal.black_steel_strip.name
-tfctech:metal/black_steel_rackwheel_piece, item.tfctech.metal.black_steel_rackwheel_piece.name
-tfctech:metal/black_steel_rackwheel, item.tfctech.metal.black_steel_rackwheel.name
-tfctech:metal/black_steel_gear, item.tfctech.metal.black_steel_gear.name
-tfctech:metal/black_steel_wire, item.tfctech.metal.black_steel_wire.name
-tfctech:metal/black_steel_long_rod, item.tfctech.metal.black_steel_long_rod.name
-tfctech:metal/black_steel_rod, item.tfctech.metal.black_steel_rod.name
-tfctech:metal/black_steel_bolt, item.tfctech.metal.black_steel_bolt.name
-tfctech:metal/black_steel_screw, item.tfctech.metal.black_steel_screw.name
-tfctech:metal/black_steel_blowpipe, item.tfctech.metal.black_steel_blowpipe.name
-tfctech:metal/blue_steel_strip, item.tfctech.metal.blue_steel_strip.name
-tfctech:metal/blue_steel_rackwheel_piece, item.tfctech.metal.blue_steel_rackwheel_piece.name
-tfctech:metal/blue_steel_rackwheel, item.tfctech.metal.blue_steel_rackwheel.name
-tfctech:metal/blue_steel_gear, item.tfctech.metal.blue_steel_gear.name
-tfctech:metal/blue_steel_wire, item.tfctech.metal.blue_steel_wire.name
-tfctech:metal/blue_steel_long_rod, item.tfctech.metal.blue_steel_long_rod.name
-tfctech:metal/blue_steel_rod, item.tfctech.metal.blue_steel_rod.name
-tfctech:metal/blue_steel_bolt, item.tfctech.metal.blue_steel_bolt.name
-tfctech:metal/blue_steel_screw, item.tfctech.metal.blue_steel_screw.name
-tfctech:metal/blue_steel_blowpipe, item.tfctech.metal.blue_steel_blowpipe.name
-tfctech:metal/red_steel_strip, item.tfctech.metal.red_steel_strip.name
-tfctech:metal/red_steel_rackwheel_piece, item.tfctech.metal.red_steel_rackwheel_piece.name
-tfctech:metal/red_steel_rackwheel, item.tfctech.metal.red_steel_rackwheel.name
-tfctech:metal/red_steel_gear, item.tfctech.metal.red_steel_gear.name
-tfctech:metal/red_steel_wire, item.tfctech.metal.red_steel_wire.name
-tfctech:metal/red_steel_long_rod, item.tfctech.metal.red_steel_long_rod.name
-tfctech:metal/red_steel_rod, item.tfctech.metal.red_steel_rod.name
-tfctech:metal/red_steel_bolt, item.tfctech.metal.red_steel_bolt.name
-tfctech:metal/red_steel_screw, item.tfctech.metal.red_steel_screw.name
-tfctech:metal/red_steel_blowpipe, item.tfctech.metal.red_steel_blowpipe.name
-tfctech:ceramics/fluid_bowl, Empty Bowl
-tfctech:electric_forge, Electric Forge
-tfctech:induction_crucible, Induction Crucible
-tfctech:smeltery_cauldron, Smeltery Cauldron
-tfctech:smeltery_firebox, Smeltery Firebox
-tfctech:wire_draw_bench, Wire Drawing Bench
-tfctech:fridge, Fridge
 waterflasks:leather_side, Leather Flask side
 waterflasks:bladder, Bladder
 waterflasks:leather_flask:0, Empty Leather Flask
@@ -11935,6 +11693,12 @@ rustichromia:assembler3, Advanced Assembler
 rustichromia:cotton_seed, Cotton Seeds
 rustichromia:windvane, Wind Vane
 rustichromia:hopper_wood, Wooden Mechanical Hopper
+rustichromia:thatch, Thatch
+rustichromia:thatch_block, Block of Thatch
+rustichromia:molten_hay, Hay Feed
+rustichromia:feeder, Feeding Trough
+rustichromia:thatch_bed, Hay Bed
+rustichromia:hay_compactor, Hay Compactor
 rustichromia:shamshir, item.shamshir.name
 rustichromia:spear, item.spear.name
 rustichromia:blastspear, item.blastspear.name

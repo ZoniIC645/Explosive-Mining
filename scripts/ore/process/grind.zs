@@ -16,6 +16,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
 });
 
 mods.terrafirmacraft.Quern.addRecipe("gravelcoal", <gravelores:coal_gravel_ore> , <tfc:ore/bituminous_coal>);
+mods.rustichromia.Quern.remove("coal");
 mods.rustichromia.Quern.add("gravelcoal", [<gravelores:coal_gravel_ore>], [<tfc:ore/bituminous_coal>], 10, 100, 160);
 
 furnace.setFuel(<tfc:ore/bituminous_coal>,1600);

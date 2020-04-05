@@ -8,9 +8,10 @@ recipes.addShaped(<minecraft:piston>, [
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotAnyBronze>, <rustic:crushing_tub>);
 
 //기어박스 레시피
+recipes.remove(<mysticalmechanics:gearbox_frame>);
 recipes.addShaped(<mysticalmechanics:gearbox_frame>, [
 	[<ore:stonePolished>, <mysticalmechanics:axle_iron>, <ore:stonePolished>],
-	[<mysticalmechanics:axle_iron>, <tfctech:metal/bronze_gear>, <mysticalmechanics:axle_iron>], 
+	[<mysticalmechanics:axle_iron>, <ore:ingotAnyBronze>, <mysticalmechanics:axle_iron>], 
 	[<ore:stonePolished>, <mysticalmechanics:axle_iron>, <ore:stonePolished>]]);
 
 //아이언 엑실
@@ -18,11 +19,13 @@ recipes.addShaped(<mysticalmechanics:gearbox_frame>, [
 recipes.remove(<mysticalmechanics:axle_iron>);
 recipes.addShaped(<mysticalmechanics:axle_iron>*16, [[null, null, null],[<ore:ingotAnyBronze>, <rustichromia:axle_wood>, <ore:ingotAnyBronze>], [null, null, null]]);
 
-//아이언 기어
+//아이언 기어 (중간에 메카니컬 컴포넌트임)
 recipes.remove(<mysticalmechanics:gear_iron>);
 recipes.addShaped(<mysticalmechanics:gear_iron>*4, [
-	[<tfctech:metal/wrought_iron_rod>, null, <tfctech:metal/wrought_iron_rod>],
-	[null, <tfctech:metal/wrought_iron_gear>, null], 
-	[<tfctech:metal/wrought_iron_rod>, null, <tfctech:metal/wrought_iron_rod>]]);
+	[<ore:stickIron>, null, <ore:stickIron>],
+	[null, <immersiveengineering:material:8>, null], 
+	[<ore:stickIron>, null, <ore:stickIron>]]);
+
+<immersiveengineering:material:1>.displayName = "Wrought Iron Rod";
 
 

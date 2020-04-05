@@ -20,7 +20,6 @@ var LoomList = [
 	<tfc:wood/loom/blackwood>,
 	<tfc:wood/loom/chestnut>,
 	<tfc:wood/loom/douglas_fir>,
-	<tfc:wood/loom/hevea>,
 	<tfc:wood/loom/hickory>,
 	<tfc:wood/loom/kapok>,
 	<tfc:wood/loom/maple>,

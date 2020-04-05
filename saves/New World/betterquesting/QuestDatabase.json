@@ -2624,39 +2624,6 @@
       "rewards:9": {}
     },
     "50:10": {
-      "questID:3": 50,
-      "preRequisites:11": [
-        55
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "tfctech:electric_forge",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "51:10": {
       "questID:3": 51,
       "preRequisites:11": [
         30
@@ -2713,10 +2680,10 @@
       },
       "rewards:9": {}
     },
-    "52:10": {
+    "51:10": {
       "questID:3": 52,
       "preRequisites:11": [
-        54
+        33
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2746,7 +2713,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "53:10": {
+    "52:10": {
       "questID:3": 53,
       "preRequisites:11": [
         49
@@ -2785,64 +2752,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "54:10": {
-      "questID:3": 54,
-      "preRequisites:11": [
-        33
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "tfctech:smeltery_cauldron",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Smeltery for glass",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "tfctech:smeltery_cauldron",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tfctech:smeltery_firebox",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "55:10": {
+    "53:10": {
       "questID:3": 55,
       "preRequisites:11": [
         39,
@@ -2876,7 +2786,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "56:10": {
+    "54:10": {
       "questID:3": 56,
       "preRequisites:11": [
         43
@@ -2909,7 +2819,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "57:10": {
+    "55:10": {
       "questID:3": 57,
       "preRequisites:11": [
         33
@@ -2960,7 +2870,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "56:10": {
       "questID:3": 58,
       "preRequisites:11": [
         33
@@ -2975,7 +2885,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "tfctech:wire_draw_bench",
+            "id:8": "immersiveengineering:wirecoil",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2986,7 +2896,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Wa! Mill!",
+          "name:8": "Wa! Ear!",
           "desc:8": "No Description"
         }
       },
@@ -3000,29 +2910,21 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "tfctech:wire_draw_bench",
-              "Count:3": 1,
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "ForgeCaps:10": {
-                "Parent:10": {
-                  "heat:5": 0.0,
-                  "ticks:4": -1,
-                  "forge:10": {
-                    "work:3": 0,
-                    "steps:10": {
-                      "last:3": -1,
-                      "third:3": -1,
-                      "second:3": -1
-                    }
-                  }
-                }
-              },
-              "id:8": "tfctech:metal/copper_wire",
+              "id:8": "immersiveengineering:connector",
               "Count:3": 4,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 4,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           },
@@ -3031,7 +2933,7 @@
       },
       "rewards:9": {}
     },
-    "59:10": {
+    "57:10": {
       "questID:3": 59,
       "preRequisites:11": [
         42,
@@ -3065,7 +2967,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "60:10": {
+    "58:10": {
       "questID:3": 60,
       "preRequisites:11": [],
       "properties:10": {
@@ -3096,7 +2998,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "61:10": {
+    "59:10": {
       "questID:3": 61,
       "preRequisites:11": [
         38
@@ -3129,7 +3031,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "62:10": {
+    "60:10": {
       "questID:3": 62,
       "preRequisites:11": [
         55
@@ -3162,7 +3064,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "63:10": {
+    "61:10": {
       "questID:3": 65,
       "preRequisites:11": [],
       "properties:10": {
@@ -3193,7 +3095,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "64:10": {
+    "62:10": {
       "questID:3": 66,
       "preRequisites:11": [],
       "properties:10": {
@@ -3224,7 +3126,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "65:10": {
+    "63:10": {
       "questID:3": 67,
       "preRequisites:11": [],
       "properties:10": {
@@ -3255,7 +3157,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "66:10": {
+    "64:10": {
       "questID:3": 68,
       "preRequisites:11": [],
       "properties:10": {
@@ -3286,7 +3188,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "67:10": {
+    "65:10": {
       "questID:3": 69,
       "preRequisites:11": [],
       "properties:10": {
@@ -3317,7 +3219,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "68:10": {
+    "66:10": {
       "questID:3": 70,
       "preRequisites:11": [],
       "properties:10": {
@@ -3348,7 +3250,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "69:10": {
+    "67:10": {
       "questID:3": 75,
       "preRequisites:11": [
         55
@@ -3384,7 +3286,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "70:10": {
+    "68:10": {
       "questID:3": 76,
       "preRequisites:11": [
         75
@@ -3787,96 +3689,82 @@
         },
         "21:10": {
           "sizeX:3": 48,
-          "x:3": 168,
-          "y:3": 348,
-          "id:3": 50,
-          "sizeY:3": 48
-        },
-        "22:10": {
-          "sizeX:3": 48,
           "x:3": -276,
           "y:3": 180,
           "id:3": 51,
           "sizeY:3": 48
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 48,
           "x:3": -48,
           "y:3": 180,
           "id:3": 52,
           "sizeY:3": 48
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 48,
           "x:3": -276,
           "y:3": 348,
           "id:3": 53,
           "sizeY:3": 48
         },
-        "25:10": {
-          "sizeX:3": 48,
-          "x:3": -48,
-          "y:3": 96,
-          "id:3": 54,
-          "sizeY:3": 48
-        },
-        "26:10": {
+        "24:10": {
           "sizeX:3": 48,
           "x:3": 168,
           "y:3": 264,
           "id:3": 55,
           "sizeY:3": 48
         },
-        "27:10": {
+        "25:10": {
           "sizeX:3": 48,
           "x:3": 384,
           "y:3": 264,
           "id:3": 56,
           "sizeY:3": 48
         },
-        "28:10": {
+        "26:10": {
           "sizeX:3": 48,
           "x:3": 168,
           "y:3": 96,
           "id:3": 57,
           "sizeY:3": 48
         },
-        "29:10": {
+        "27:10": {
           "sizeX:3": 48,
           "x:3": 60,
           "y:3": 96,
           "id:3": 58,
           "sizeY:3": 48
         },
-        "30:10": {
+        "28:10": {
           "sizeX:3": 72,
           "x:3": 480,
           "y:3": 168,
           "id:3": 59,
           "sizeY:3": 72
         },
-        "31:10": {
+        "29:10": {
           "sizeX:3": 48,
           "x:3": 276,
           "y:3": 96,
           "id:3": 61,
           "sizeY:3": 48
         },
-        "32:10": {
+        "30:10": {
           "sizeX:3": 48,
           "x:3": 60,
           "y:3": 348,
           "id:3": 62,
           "sizeY:3": 48
         },
-        "33:10": {
+        "31:10": {
           "sizeX:3": 48,
-          "x:3": 276,
+          "x:3": 168,
           "y:3": 348,
           "id:3": 75,
           "sizeY:3": 48
         },
-        "34:10": {
+        "32:10": {
           "sizeX:3": 72,
           "x:3": 480,
           "y:3": 336,

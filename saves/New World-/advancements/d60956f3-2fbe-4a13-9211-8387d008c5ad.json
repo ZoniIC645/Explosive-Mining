@@ -1,7 +1,31 @@
 {
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-03-29 20:14:29 +0900"
+    },
+    "done": true
+  },
   "nuclearcraft:root": {
     "criteria": {
       "location": "2020-03-26 01:11:40 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2020-03-29 20:12:56 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2020-03-29 20:14:29 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2020-03-29 20:14:29 +0900"
     },
     "done": true
   },
